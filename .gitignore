@@ -62,3 +62,6 @@ typings/
 
 # local file
 *.local.*
+
+.runtimeconfig.json
+.firebase
