@@ -16,6 +16,7 @@
     ],
     "rewrites": [
       { "source": "/api/add", "function": "addUrl" },
+      { "source": "/r/**", "dynamicLinks": true },
       {
         "source": "**",
         "destination": "/index.html"

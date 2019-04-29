@@ -7,10 +7,8 @@ const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 const app = admin.initializeApp();
 
-console.log(app.options_)
-
 const config = functions.config().config
-const apiKey = config.api_key || app.options_.apiKey || process.env.API_KEY;
+const apiKey = process.env.API_KEY || config.api_key || app.options_.apiKey
 const firebaseDynamicLinkApi = `https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=${apiKey}`;
 const domainUriPrefix = config.domain_uri_prefix || 'https://duyeturl.page.link';
 

@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { useState } from "react"
 import axios from "axios"
+import { CopyToClipboard } from "react-copy-to-clipboard"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -9,6 +9,8 @@ import SEO from "../components/seo"
 const ERROR_MESSAGE = `Something went wrong!`
 
 const ShortenResult = (props) => {
+  const [text, setText] = useState('Copy')
+
   if (!props.result) return null
   return (
     <div
@@ -20,12 +22,20 @@ const ShortenResult = (props) => {
       <a 
         href={props.result.shortLink}
         target='_blank'
+        rel="noopener noreferrer"
         style={{
           fontSize: 26,
         }}
       >
         {props.result.shortLink}
       </a>
+      <CopyToClipboard 
+         text={props.result.shortLink}
+         onCopy={() => {
+          setText('Copied!')
+         }}>
+         <span style={{ margin: 10, padding: 10 }}>{text}</span>
+      </CopyToClipboard>
     </div>
   )
 }
