@@ -10,7 +10,7 @@ const app = admin.initializeApp();
 const config = functions.config().config
 const apiKey = process.env.API_KEY || config.api_key || app.options_.apiKey
 const firebaseDynamicLinkApi = `https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=${apiKey}`;
-const domainUriPrefix = config.domain_uri_prefix || 'https://duyeturl.page.link';
+const domainUriPrefix = config.domain_uri_prefix || 'https://duyeturl.page.link'; // TODO: move this `domainUriPrefix` to config
 
 exports.addUrl = functions.https.onRequest(async (req, res) => {
     const link = req.query.url || req.body.url || null;
