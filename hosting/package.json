@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "duyet-shortener",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Demo for simple shortener with Firebase",
+  "version": "0.1.1",
+  "author": "Duyet Le <me@duyet.net>",
   "dependencies": {
     "axios": "0.19.0",
     "gatsby": "2.15.17",
