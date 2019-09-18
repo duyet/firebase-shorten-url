@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "babel-eslint": "10.0.3",
-    "eslint": "5.16.0",
+    "eslint": "6.4.0",
     "eslint-plugin-promise": "4.2.1"
   },
   "private": true,
