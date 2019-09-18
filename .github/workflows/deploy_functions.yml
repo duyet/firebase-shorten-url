@@ -1,0 +1,35 @@
+name: Deploy Functions
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      # F*king golang https://help.github.com/en/articles/workflow-syntax-for-github-actions#onpushpull_requestpaths
+      - 'functions/*'
+      - 'functions/*/*'
+      - 'functions/*/*/*'
+      - 'functions/*/*/*/*'
+      - 'functions/*/*/*/*/*'
+      - 'functions/*/*/*/*/*/*'
+      - 'functions/*/*/*/*/*/*/*'
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 
+        uses: actions/setup-node@v1
+        with:
+          node-version: 8.x
+      - name: Run Eslint
+        run: |
+          cd functions
+          npm install
+          npm run lint
+      - name: Deploy functions
+        run: |
+          cd functions
+          npm install
+          export FIREBASE_TOKEN=${{ secrets.FIREBASE_TOKEN }}
+          npm run deploy
