@@ -21,13 +21,23 @@
     "react-helmet": "5.2.1"
   },
   "devDependencies": {
-    "prettier": "1.18.2"
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "1.18.2",
+    "babel-loader": "8.0.6",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-jest": "22.17.0",
+    "eslint-plugin-react": "7.14.3"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
+    "lint": "eslint .",
     "build": "rm -rf public && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
