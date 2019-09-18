@@ -1,0 +1,37 @@
+name: Deploy Hostings
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      # F*king golang https://help.github.com/en/articles/workflow-syntax-for-github-actions#onpushpull_requestpaths
+      - 'hosting/*'
+      - 'hosting/*/*'
+      - 'hosting/*/*/*'
+      - 'hosting/*/*/*/*'
+      - 'hosting/*/*/*/*/*'
+      - 'hosting/*/*/*/*/*/*'
+      - 'hosting/*/*/*/*/*/*/*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 
+        uses: actions/setup-node@v1
+        with:
+          node-version: 8.x
+      - name: Run Eslint
+        run: |
+          cd hosting
+          npm install
+          npm run lint
+      - name: Deploy hosting
+        run: |
+          cd hosting
+          npm install
+          npm run build
+          export FIREBASE_TOKEN=${{ secrets.FIREBASE_TOKEN }}
+          npm run deploy
