@@ -9,6 +9,16 @@ import SEO from '../components/seo';
 
 const ERROR_MESSAGE = 'Something went wrong!';
 
+const gtagTrack = (eventCategory, eventAction, eventLabel, data) => {
+  if (typeof window === 'undefined') return;
+  if (!('gtag' in window)) return;
+  window.gtag('event', eventAction, {
+    event_category: eventCategory,
+    event_label: eventLabel,
+    ...data
+  });
+};
+
 const ShortenResult = (props) => {
   const [text, setText] = useState('Copy');
 
@@ -33,6 +43,7 @@ const ShortenResult = (props) => {
       <CopyToClipboard
          text={props.result.shortLink}
          onCopy={() => {
+           gtagTrack('CopyToClipboard', 'success', props.result.shortLink);
            setText('Copied!');
          }}>
          <span style={{ margin: 10, padding: 10 }}>{text}</span>
@@ -59,11 +70,13 @@ class IndexPage extends React.Component {
       .then((response) => {
         console.log(response);
         this.setState({ result: response.data });
+        gtagTrack('get-shorten', 'success', response.data.shortLink, response.data);
       })
       .catch((err) => {
         console.error(err);
         if (err.response) {
           const data = err.response.data || {};
+          gtagTrack('get-shorten', 'error', this.state.url, err.response);
           return alert(data.msg || ERROR_MESSAGE);
         }
         return alert(err.msg || ERROR_MESSAGE);
