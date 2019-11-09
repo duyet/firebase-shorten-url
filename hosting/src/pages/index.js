@@ -1,56 +1,17 @@
 /* eslint-disable no-alert */
-import React, { useState } from 'react';
+import React from 'react';
 import axios from 'axios';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { Row, Col, Form, Input, Spin } from 'antd';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
+import gtagTrack from '../utils/gtag';
+import ShortenResult from '../components/shorten-result';
+
+const { Search } = Input;
 
 const ERROR_MESSAGE = 'Something went wrong!';
 
-const gtagTrack = (eventCategory, eventAction, eventLabel, data) => {
-  if (typeof window === 'undefined') return;
-  if (!('gtag' in window)) return;
-  window.gtag('event', eventAction, {
-    event_category: eventCategory,
-    event_label: eventLabel,
-    ...data
-  });
-};
-
-const ShortenResult = (props) => {
-  const [text, setText] = useState('Copy');
-
-  if (!props.result) return null;
-  return (
-    <div
-      style={{
-        padding: 10,
-        margin: 20
-      }}
-    >
-      <a
-        href={props.result.shortLink}
-        target='_blank'
-        rel="noopener noreferrer"
-        style={{
-          fontSize: 26,
-        }}
-      >
-        {props.result.shortLink}
-      </a>
-      <CopyToClipboard
-         text={props.result.shortLink}
-         onCopy={() => {
-           gtagTrack('CopyToClipboard', 'success', props.result.shortLink);
-           setText('Copied!');
-         }}>
-         <span style={{ margin: 10, padding: 10 }}>{text}</span>
-      </CopyToClipboard>
-    </div>
-  );
-};
 
 class IndexPage extends React.Component {
   state = {
@@ -61,18 +22,21 @@ class IndexPage extends React.Component {
   }
 
   onSubmit = (e) => {
+    this.setState({ loading: true })
     const params = {
       idToken: null,
       url: this.state.url,
       email: null
     };
-    axios.get('/api/add', { params })
+    axios.post('/api/add', params)
       .then((response) => {
         console.log(response);
-        this.setState({ result: response.data });
+        this.setState({ result: response.data, loading: false });
         gtagTrack('get-shorten', 'success', response.data.shortLink, response.data);
       })
       .catch((err) => {
+        this.setState({ loading: false });
+
         console.error(err);
         if (err.response) {
           const data = err.response.data || {};
@@ -82,32 +46,47 @@ class IndexPage extends React.Component {
         return alert(err.msg || ERROR_MESSAGE);
       });
 
-    e.preventDefault();
+    if (e) {
+      e.preventDefault();
+    }
   }
 
   onChangeInput = (e) => {
     this.setState({ url: e.target.value });
   }
 
-  render() {
+  render () {
     return (
       <Layout>
         <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
-        <p>Shorten URL by Firebase Dynamic Link</p>
-        <form onSubmit={this.onSubmit}>
-          <input type='text'
-            onChange={this.onChangeInput}
-            style={{
-              width: '100%',
-              padding: 5,
-              border: '1px solid #ccc'
-            }}
-          />
-        </form>
-        <ShortenResult result={this.state.result} />
-        <div style={{ maxWidth: '300px', marginBottom: '1.45rem', margin: '0 auto' }}>
-          <Image />
-        </div>
+
+        <Row style={{ margin: '5%' }}>
+          <Col span={24}>
+            <Form onSubmit={this.onSubmit}>
+              <Search 
+                type='url'
+                size='large'
+                onChange={this.onChangeInput}
+                loading={this.state.loading}
+                onPressEnter={() => { this.onSubmit() }}
+                onPaste={e => {
+                  let url = e.clipboardData.getData('Text')
+                  this.setState({ url }, () => this.onSubmit());
+                  
+                }}
+                placeholder="Paste your URL here"
+              />
+            </Form>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            { this.state.loading ? <Spin size="large" /> : null }
+            <ShortenResult result={this.state.result} />
+          </Col>
+        </Row>
+
       </Layout>
     );
   }
