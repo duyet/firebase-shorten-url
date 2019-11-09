@@ -20,7 +20,7 @@ exports.addUrl = functions.https.onRequest(async (req, res) => {
     console.log(JSON.stringify(req.headers, null, 4))
 
     try {
-        console.log(`Start create shorten URL for: ${link}`);
+        console.log(`Getting shorten URL for: ${link}`);
         let result = await axios.post(firebaseDynamicLinkApi, {
             dynamicLinkInfo: {
                 domainUriPrefix,
@@ -51,3 +51,20 @@ exports.addUrl = functions.https.onRequest(async (req, res) => {
         res.status(500).json('error');
     }
 });
+
+
+exports.analytics = functions.https.onRequest(async (req, res) => {
+    const shortDynamicLink = req.query.shortLink || req.body.shortLink || null;
+    const durationDays = req.query.durationDays || req.body.durationDays || 30;
+
+    const requestUrl = `https://firebasedynamiclinks.googleapis.com/v1/${shortDynamicLink}/linkStats?durationDays=${durationDays}&key=${apiKey}`;
+
+    try {
+        console.log(`Getting statistics for: ${shortDynamicLink}`);
+        let result = await axios.get(requestUrl)
+        res.json(result.data);
+    } catch (e) {
+        console.error(e.message);
+        res.status(500).json('error');
+    }
+})

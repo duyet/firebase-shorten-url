@@ -81,7 +81,7 @@ class IndexPage extends React.Component {
           </Col>
         </Row>
 
-        <Row>
+        <Row style={{ textAlign: 'center' }}>
           <Col>
             {this.state.loading ? <Spin size="large" /> : null}
             <ShortenResult result={this.state.result} />
