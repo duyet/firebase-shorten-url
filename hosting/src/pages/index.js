@@ -1,7 +1,9 @@
 /* eslint-disable no-alert */
 import React from 'react';
 import axios from 'axios';
-import { Row, Col, Form, Input, Spin } from 'antd';
+import {
+  Row, Col, Form, Input, Spin
+} from 'antd';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -22,7 +24,7 @@ class IndexPage extends React.Component {
   }
 
   onSubmit = (e) => {
-    this.setState({ loading: true })
+    this.setState({ loading: true });
     const params = {
       idToken: null,
       url: this.state.url,
@@ -55,7 +57,7 @@ class IndexPage extends React.Component {
     this.setState({ url: e.target.value });
   }
 
-  render () {
+  render() {
     return (
       <Layout>
         <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
@@ -63,16 +65,15 @@ class IndexPage extends React.Component {
         <Row style={{ margin: '5%' }}>
           <Col span={24}>
             <Form onSubmit={this.onSubmit}>
-              <Search 
+              <Search
                 type='url'
                 size='large'
                 onChange={this.onChangeInput}
                 loading={this.state.loading}
-                onPressEnter={() => { this.onSubmit() }}
-                onPaste={e => {
-                  let url = e.clipboardData.getData('Text')
+                onPressEnter={() => { this.onSubmit(); }}
+                onPaste={(e) => {
+                  const url = e.clipboardData.getData('Text');
                   this.setState({ url }, () => this.onSubmit());
-                  
                 }}
                 placeholder="Paste your URL here"
               />
@@ -82,7 +83,7 @@ class IndexPage extends React.Component {
 
         <Row>
           <Col>
-            { this.state.loading ? <Spin size="large" /> : null }
+            {this.state.loading ? <Spin size="large" /> : null}
             <ShortenResult result={this.state.result} />
           </Col>
         </Row>

@@ -9,8 +9,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
-import { Layout as AntLayout, PageHeader, Typography, Tag } from 'antd';
-import "antd/dist/antd.css";
+import {
+  Layout as AntLayout, PageHeader, Typography, Tag
+} from 'antd';
+import 'antd/dist/antd.css';
 
 import Footer from './footer';
 
@@ -40,7 +42,7 @@ const Layout = ({ children }) => (
         </Header>
 
         <Content>
-          <div style={{ minHeight: "calc(100vh - 400px)" }}>
+          <div style={{ minHeight: 'calc(100vh - 400px)' }}>
             {children}
           </div>
         </Content>
