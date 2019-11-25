@@ -17,11 +17,11 @@
   "dependencies": {
     "antd": "3.25.3",
     "axios": "0.19.0",
-    "gatsby": "2.18.2",
+    "gatsby": "2.18.3",
     "gatsby-image": "2.2.33",
     "gatsby-plugin-google-gtag": "1.1.16",
     "gatsby-plugin-manifest": "2.2.29",
-    "gatsby-plugin-offline": "3.0.22",
+    "gatsby-plugin-offline": "3.0.23",
     "gatsby-plugin-react-helmet": "3.1.15",
     "gatsby-plugin-sharp": "2.3.3",
     "gatsby-source-filesystem": "2.1.38",
