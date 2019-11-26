@@ -33,7 +33,7 @@ const Layout = ({ children }) => (
     `}
     render={(data) => (
       <AntLayout style={{ backgroundColor: '#FFF' }}>
-        <Header style={{ height: 'auto' }}>
+        <Header style={{ height: 'auto', backgroundColor: '#2371bb' }}>
           <PageHeader
             title={<Text style={{ color: '#FFF' }}>{data.site.siteMetadata.title}</Text>}
             subTitle={<Text style={{ color: '#c7c5c5' }}>{data.site.siteMetadata.description}</Text>}
