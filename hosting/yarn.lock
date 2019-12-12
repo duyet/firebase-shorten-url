@@ -6097,10 +6097,10 @@ find-versions@^3.0.0:
     array-uniq "^2.1.0"
     semver-regex "^2.0.0"
 
-firebase-tools@7.9.0:
-  version "7.9.0"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-7.9.0.tgz#32661980943f5ebbb2d82c126762c468ae0cff9c"
-  integrity sha512-dYxuFflaPAkic2KQyPJ6spox8KzlQRb4Xyk6oVDorBV0YmBIJ3VQhJYbwSZwwDlbCmiPiMXNBM26JUifp09Qfw==
+firebase-tools@7.10.0:
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-7.10.0.tgz#597a11c468f8e3fa09fec8e8bd23603d9df1a88a"
+  integrity sha512-ic8rkM7DIY0lh7wONChTdPYnF0IF8AoeP5nGj4VfvunGcLU++ih6zgIll6C8WaNG3P8iEG4PtemMbYKBwE+sbQ==
   dependencies:
     "@google-cloud/pubsub" "^1.1.5"
     JSONStream "^1.2.1"
@@ -6136,7 +6136,7 @@ firebase-tools@7.9.0:
     portfinder "^1.0.23"
     progress "^2.0.3"
     request "^2.87.0"
-    semver "^5.0.3"
+    semver "^5.7.1"
     superstatic "^6.0.1"
     tar "^4.3.0"
     tcp-port-used "^1.0.1"
