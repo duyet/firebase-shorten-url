@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "antd": "3.26.6",
-    "axios": "0.19.0",
+    "axios": "0.19.1",
     "gatsby": "2.18.18",
     "gatsby-image": "2.2.37",
     "gatsby-plugin-google-gtag": "1.1.19",
