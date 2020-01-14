@@ -15,7 +15,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "antd": "3.26.6",
+    "antd": "3.26.7",
     "axios": "0.19.1",
     "gatsby": "2.18.21",
     "gatsby-image": "2.2.38",
