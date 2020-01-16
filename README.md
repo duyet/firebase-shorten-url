@@ -1,5 +1,5 @@
 # Firebase Shorten URL
-Shorten URL using Firebase Dynamic Link API
+This is a demonstrate how to use the Firebase Dynamic Link API to build the shorten URL app.
 
 ![](.github/screenshot.png)
 
