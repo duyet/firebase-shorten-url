@@ -10,7 +10,7 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
-    "axios": "0.19.1",
+    "axios": "0.19.2",
     "firebase-admin": "8.9.1",
     "firebase-functions": "3.3.0"
   },
