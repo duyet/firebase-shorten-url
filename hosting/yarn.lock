@@ -1981,10 +1981,10 @@ ansicolors@~0.3.2:
   resolved "https://registry.yarnpkg.com/ansicolors/-/ansicolors-0.3.2.tgz#665597de86a9ffe3aa9bfbe6cae5c6ea426b4979"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@3.26.10:
-  version "3.26.10"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-3.26.10.tgz#c39ecd1a814f416eab2d20bc8aa4bc35b8c3a400"
-  integrity sha512-oPBdY63uB33xrkJ6AfbH7CYbtmzfMa8V5bwhd4dKdl+E0f9VtL3rS7I+Rw1cawt8kbXN7WPHAqcBxR+saBWpEw==
+antd@3.26.11:
+  version "3.26.11"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-3.26.11.tgz#28d17b8c664251b879e25ad22b3102b1d04c5a10"
+  integrity sha512-LJZW/XWfv7u5L0mnctmwJEIRuT2rVi5A9SR4JE1vfMwjfJQT6n8bphcytElYXxCHr9xjQSONhuGLgeMz6AVoWQ==
   dependencies:
     "@ant-design/create-react-context" "^0.2.4"
     "@ant-design/icons" "~2.1.1"
