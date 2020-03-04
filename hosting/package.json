@@ -17,7 +17,7 @@
   "dependencies": {
     "antd": "4.0.1",
     "axios": "0.19.2",
-    "gatsby": "2.19.27",
+    "gatsby": "2.19.28",
     "gatsby-image": "2.2.42",
     "gatsby-plugin-google-gtag": "1.1.22",
     "gatsby-plugin-manifest": "2.2.42",
