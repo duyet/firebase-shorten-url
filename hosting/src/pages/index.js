@@ -1,9 +1,10 @@
 /* eslint-disable no-alert */
+/* eslint-disable object-curly-newline */
 import React from 'react';
 import axios from 'axios';
-import {
-  Row, Col, Form, Input, Spin
-} from 'antd';
+import { Form } from '@ant-design/compatible';
+import '@ant-design/compatible/assets/index.css';
+import { Row, Col, Input, Spin } from 'antd';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -13,7 +14,6 @@ import ShortenResult from '../components/shorten-result';
 const { Search } = Input;
 
 const ERROR_MESSAGE = 'Something went wrong!';
-
 
 class IndexPage extends React.Component {
   state = {
