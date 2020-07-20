@@ -15,7 +15,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "@ant-design/compatible": "^1.0.4",
+    "@ant-design/compatible": "1.0.4",
     "antd": "4.4.2",
     "axios": "0.19.2",
     "gatsby": "2.24.4",
@@ -34,7 +34,7 @@
     "react-helmet": "6.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
+    "babel-eslint": "10.1.0",
     "babel-loader": "8.1.0",
     "eslint": "7.4.0",
     "eslint-config-airbnb": "18.2.0",
