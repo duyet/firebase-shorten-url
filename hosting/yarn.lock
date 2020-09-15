@@ -16,10 +16,10 @@
   dependencies:
     tinycolor2 "^1.4.1"
 
-"@ant-design/compatible@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@ant-design/compatible/-/compatible-1.0.5.tgz#f72a6602ca39e44ceff8b4c09861aa12db9f5ceb"
-  integrity sha512-UrMtEtx0M7blj/0EKvhfE7U/Q6vLd9c1EUsIf2fl8C3CRWogAUu67FwKAJKtcwQZwkinCDCJgTjtscZm1UvX4A==
+"@ant-design/compatible@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@ant-design/compatible/-/compatible-1.0.6.tgz#52869e7a248b171bbf077907c86820a9c2636425"
+  integrity sha512-dQeLhBd4Kh7BBlOSNAeHxlpstL4R4sguEMfGdFByE7jw9YFRi2wC8bUEg/qA2qhJJjMpAzWdVna4dGbswfvdSg==
   dependencies:
     "@ant-design/icons" "^4.0.0"
     classnames "^2.2.6"
