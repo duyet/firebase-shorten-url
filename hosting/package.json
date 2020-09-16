@@ -15,7 +15,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "@ant-design/compatible": "1.0.7",
+    "@ant-design/compatible": "1.0.8",
     "antd": "4.6.4",
     "axios": "0.20.0",
     "gatsby": "2.24.60",
