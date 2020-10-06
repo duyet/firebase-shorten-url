@@ -7804,10 +7804,10 @@ find-versions@^3.0.0:
     array-uniq "^2.1.0"
     semver-regex "^2.0.0"
 
-firebase-tools@8.11.2:
-  version "8.11.2"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-8.11.2.tgz#35b8b1dc41e3acb66615ab37e05031ea1804cf39"
-  integrity sha512-aKxWDwrWhziPsPphwITVTpBUBl5wC08yZIFNosQc4/I9qXbnLmkIBYd06YvQkm0uwNlCMlJ5zE/UUAemEPUm+A==
+firebase-tools@8.12.0:
+  version "8.12.0"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-8.12.0.tgz#1b05a3b72932f348d7a6c2b37f5c9bf292733681"
+  integrity sha512-R09lwkm0tTwJ4hzrFyDN0GvLxxmKXYJTl704KKUCOlAaM3nrlocS+Tdx60lJopMwbceFMOqcYenhz6Ask3h+Qg==
   dependencies:
     "@google-cloud/pubsub" "^1.7.0"
     JSONStream "^1.2.1"
