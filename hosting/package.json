@@ -24,7 +24,7 @@
     "gatsby-plugin-manifest": "2.4.34",
     "gatsby-plugin-offline": "3.2.31",
     "gatsby-plugin-react-helmet": "3.3.14",
-    "gatsby-plugin-sharp": "2.6.41",
+    "gatsby-plugin-sharp": "2.6.42",
     "gatsby-source-filesystem": "2.3.34",
     "gatsby-transformer-sharp": "2.5.17",
     "prop-types": "15.7.2",
