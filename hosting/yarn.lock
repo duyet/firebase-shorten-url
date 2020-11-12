@@ -7550,13 +7550,14 @@ find-versions@^3.0.0:
     array-uniq "^2.1.0"
     semver-regex "^2.0.0"
 
-firebase-tools@8.15.1:
-  version "8.15.1"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-8.15.1.tgz#1d94d0ecc74f5e592ccb70fc54e92a508bd7f5b2"
-  integrity sha512-u2Kn2w5rWZLybBNmThVppHvZq5/23aZfBcvT0eon26bxX+nK7ApV6KS4DyaDR1tBH4vqL9LVHBVy0lVhAe2EyQ==
+firebase-tools@8.16.0:
+  version "8.16.0"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-8.16.0.tgz#ef81ee17a34f433301abce7315ac33803e08f5de"
+  integrity sha512-FhkA2QRX1fxN5RCyI0N56esYMCySlAlyKt8inIyP8+anrh/5WHt0FL1JpC2/U3ufTc7jq+eZlCkv31iIyFMOzw==
   dependencies:
     "@google-cloud/pubsub" "^1.7.0"
     JSONStream "^1.2.1"
+    abort-controller "^3.0.0"
     archiver "^3.0.0"
     body-parser "^1.19.0"
     chokidar "^3.0.2"
