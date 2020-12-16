@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@ant-design/compatible": "1.0.8",
-    "antd": "4.9.3",
+    "antd": "4.9.4",
     "axios": "0.21.0",
     "gatsby": "2.29.0",
     "gatsby-image": "2.8.0",
