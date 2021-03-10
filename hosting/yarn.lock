@@ -6940,10 +6940,10 @@ gatsby-plugin-react-helmet@4.0.0:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-gatsby-plugin-sharp@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.0.0.tgz"
-  integrity sha512-gmIzHjv+JaW1Gyyrz81s43yBkqtMpgvGb6qbPzH2ZX8V2YTyd9LnfUxKx/uTwluEB5oz/om4jtHSCH5DSUsTFA==
+gatsby-plugin-sharp@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.0.1.tgz"
+  integrity sha512-HL519LIhTmTySUPFO2IuwIHBlgo/0N7gJng2gu2XwD/DJ3ENgw5+SXmiVTwvERx7Pr5YVPECgYuszWdlYgJmgw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     async "^3.2.0"
