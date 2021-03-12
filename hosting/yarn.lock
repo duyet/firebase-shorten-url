@@ -6493,10 +6493,10 @@ find-versions@^3.0.0:
   dependencies:
     semver-regex "^2.0.0"
 
-firebase-tools@9.6.0:
-  version "9.6.0"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-9.6.0.tgz"
-  integrity sha512-2r/dATLJKPqSbGQilJtJTHt1AhIza9msXFVrOEtaPohpCzOFcGdXJVBaoqmfx4tpbM7qiKw/+Ro+jo6PzdMEwQ==
+firebase-tools@9.6.1:
+  version "9.6.1"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-9.6.1.tgz#1528437f904e957378bc397d629e26942677ad17"
+  integrity sha512-Av2RMjTVJtFthl+XTfgtvbXY6K19GgjV/kyeqSkLklmWDpJle8dYhsodosx5tquBsLyOQQxrkpC4cZcGk3+IoA==
   dependencies:
     "@google-cloud/pubsub" "^2.7.0"
     "@types/archiver" "^5.1.0"
