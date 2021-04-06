@@ -3161,7 +3161,7 @@ base64-arraybuffer@0.1.4:
   resolved "https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-0.1.4.tgz"
   integrity sha1-mBjHngWbE1X5fgQooBfIOOkLqBI=
 
-base64-js@^1.0.2, base64-js@^1.2.3, base64-js@^1.3.0, base64-js@^1.3.1:
+base64-js@^1.0.2, base64-js@^1.3.0, base64-js@^1.3.1:
   version "1.3.1"
   resolved "https://registry.npmjs.org/base64-js/-/base64-js-1.3.1.tgz"
   integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
@@ -3310,7 +3310,7 @@ binary@~0.3.0:
     buffers "~0.1.1"
     chainsaw "~0.1.0"
 
-bindings@^1.3.0, bindings@^1.5.0:
+bindings@^1.5.0:
   version "1.5.0"
   resolved "https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz"
   integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
@@ -6210,13 +6210,6 @@ fast-copy@^2.1.0:
   resolved "https://registry.npmjs.org/fast-copy/-/fast-copy-2.1.1.tgz"
   integrity sha512-Qod3DdRgFZ8GUIM6ygeoZYpQ0QLW9cf/FS9KhhjlYggcSZXWAemAw8BOCO5LuYCrR3Uj3qXDVTUzOUwG8C7beQ==
 
-fast-crc32c@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/fast-crc32c/-/fast-crc32c-2.0.0.tgz"
-  integrity sha512-LIREwygxtxzHF11oLJ4xIVKu/ZWNgrj/QaGvaSD8ZggIsgCyCtSYevlrpWVqNau57ZwezV8K1HFBSjQ7FcRbTQ==
-  optionalDependencies:
-    sse4_crc32 "^6.0.1"
-
 fast-deep-equal@^3.1.1:
   version "3.1.3"
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
@@ -6516,10 +6509,10 @@ find-versions@^3.0.0:
   dependencies:
     semver-regex "^2.0.0"
 
-firebase-tools@9.8.0:
-  version "9.8.0"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-9.8.0.tgz"
-  integrity sha512-UhOnT8csgc1jlS1GYz0IxTHwB9BYoxj+TSy4aIKj8a44OzsXVSiT6lOhLIYHZFLVdjqkLi08i1+07JoOVTmtTA==
+firebase-tools@9.9.0:
+  version "9.9.0"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-9.9.0.tgz#acb64d3a7a8f5dac0b1855783a067aabad8d5743"
+  integrity sha512-LM4HaLHg/UYJ1CB3VEzneRWk+BMJXH/9Id+v9nYeNzYFPRTxAxfWez2Etd2c+kFreLhCoMtSC4yx44zorqdkSA==
   dependencies:
     "@google-cloud/pubsub" "^2.7.0"
     "@types/archiver" "^5.1.0"
@@ -6542,14 +6535,12 @@ firebase-tools@9.8.0:
     exegesis-express "^2.0.0"
     exit-code "^1.0.2"
     express "^4.16.4"
-    fast-crc32c "^2.0.0"
     filesize "^6.1.0"
     fs-extra "^0.23.1"
     glob "^7.1.2"
     google-auth-library "^6.1.3"
     inquirer "~6.3.1"
     js-yaml "^3.13.1"
-    jsonschema "^1.0.2"
     jsonwebtoken "^8.5.1"
     leven "^3.1.0"
     lodash "^4.17.19"
@@ -6560,7 +6551,6 @@ firebase-tools@9.8.0:
     node-fetch "^2.6.1"
     open "^6.3.0"
     ora "^3.4.0"
-    plist "^3.0.1"
     portfinder "^1.0.23"
     progress "^2.0.3"
     proxy-agent "^4.0.0"
@@ -9307,11 +9297,6 @@ jsonparse@^1.2.0:
   resolved "https://registry.npmjs.org/jsonparse/-/jsonparse-1.3.1.tgz"
   integrity sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
 
-jsonschema@^1.0.2:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/jsonschema/-/jsonschema-1.4.0.tgz"
-  integrity sha512-/YgW6pRMr6M7C+4o8kS+B/2myEpHCrxO4PEWnqJNBFMjn7EWXqlQ4tGwL6xTHeRplwuZmcAncdvfOad1nT2yMw==
-
 jsonwebtoken@^8.5.1:
   version "8.5.1"
   resolved "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-8.5.1.tgz"
@@ -10639,11 +10624,6 @@ node-abi@^2.7.0:
   dependencies:
     semver "^5.4.1"
 
-node-addon-api@^1.3.0:
-  version "1.7.2"
-  resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-1.7.2.tgz"
-  integrity sha512-ibPK3iA+vaY1eEjESkQkM0BbCqFOaZMiXRTtdB0u7b4djtY6JnsjvPdUHVMg6xQt3B8fpTTWHI9A+ADjM9frzg==
-
 node-addon-api@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.1.0.tgz"
@@ -11647,15 +11627,6 @@ platform@^1.3.6:
   version "1.3.6"
   resolved "https://registry.npmjs.org/platform/-/platform-1.3.6.tgz"
   integrity sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==
-
-plist@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/plist/-/plist-3.0.1.tgz"
-  integrity sha512-GpgvHHocGRyQm74b6FWEZZVRroHKE1I0/BTjAmySaohK+cUn+hZpbqXkc3KWgW3gQYkqcQej35FohcT0FRlkRQ==
-  dependencies:
-    base64-js "^1.2.3"
-    xmlbuilder "^9.0.7"
-    xmldom "0.1.x"
 
 pngjs@^3.0.0, pngjs@^3.3.3:
   version "3.4.0"
@@ -14092,14 +14063,6 @@ sse-z@0.3.0:
   resolved "https://registry.npmjs.org/sse-z/-/sse-z-0.3.0.tgz"
   integrity sha512-jfcXynl9oAOS9YJ7iqS2JMUEHOlvrRAD+54CENiWnc4xsuVLQVSgmwf7cwOTcBd/uq3XkQKBGojgvEtVXcJ/8w==
 
-sse4_crc32@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/sse4_crc32/-/sse4_crc32-6.0.1.tgz"
-  integrity sha512-FUTYXpLroqytNKWIfHzlDWoy9E4tmBB/RklNMy6w3VJs+/XEYAHgbiylg4SS43iOk/9bM0BlJ2EDpFAGT66IoQ==
-  dependencies:
-    bindings "^1.3.0"
-    node-addon-api "^1.3.0"
-
 sshpk@^1.7.0:
   version "1.16.1"
   resolved "https://registry.npmjs.org/sshpk/-/sshpk-1.16.1.tgz"
@@ -15996,20 +15959,10 @@ xml2js@^0.4.5:
     sax ">=0.6.0"
     xmlbuilder "~11.0.0"
 
-xmlbuilder@^9.0.7:
-  version "9.0.7"
-  resolved "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-9.0.7.tgz"
-  integrity sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=
-
 xmlbuilder@~11.0.0:
   version "11.0.1"
   resolved "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz"
   integrity sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==
-
-xmldom@0.1.x:
-  version "0.1.31"
-  resolved "https://registry.npmjs.org/xmldom/-/xmldom-0.1.31.tgz"
-  integrity sha512-yS2uJflVQs6n+CyjHoaBmVSqIDevTAWrzMmjG1Gc7h1qQ7uVozNhEPJAwZXWyGQ/Gafo3fCwrcaokezLPupVyQ==
 
 xmlhttprequest-ssl@~1.5.4:
   version "1.5.5"
