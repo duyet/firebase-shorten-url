@@ -2103,9 +2103,9 @@
   integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
 
 "@types/node@^13.7.0":
-  version "13.13.47"
-  resolved "https://registry.npmjs.org/@types/node/-/node-13.13.47.tgz"
-  integrity sha512-R6851wTjN1YJza8ZIeX6puNBSi/ZULHVh4WVleA7q256l+cP2EtXnKbO455fTs2ytQk3dL9qkU+Wh8l/uROdKg==
+  version "13.13.48"
+  resolved "https://registry.npmjs.org/@types/node/-/node-13.13.48.tgz"
+  integrity sha512-z8wvSsgWQzkr4sVuMEEOvwMdOQjiRY2Y/ZW4fDfjfe3+TfQrZqFKOthBgk2RnVEmtOKrkwdZ7uTvsxTBLjKGDQ==
 
 "@types/node@^8.5.7":
   version "8.10.66"
@@ -6299,9 +6299,9 @@ fd@~0.0.2:
   integrity sha512-iAHrIslQb3U68OcMSP0kkNWabp7sSN6d2TBSb2JO3gcLJVDd4owr/hKM4SFJovFOUeeXeItjYgouEDTMWiVAnA==
 
 fecha@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.npmjs.org/fecha/-/fecha-4.2.0.tgz"
-  integrity sha512-aN3pcx/DSmtyoovUudctc8+6Hl4T+hI9GBBHLjA76jdZl7+b1sgh5g4k+u/GL3dTy1/pnYzKp69FpJ0OicE3Wg==
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/fecha/-/fecha-4.2.1.tgz"
+  integrity sha512-MMMQ0ludy/nBs1/o0zVOiKTpG7qMbonKUzjJgQFEuvq6INZ1OraKPRAWkBq5vlKLOUMpmNYG1JoN3oDPUQ9m3Q==
 
 figures@^1.3.5:
   version "1.7.0"
@@ -6511,7 +6511,7 @@ find-versions@^3.0.0:
 
 firebase-tools@9.9.0:
   version "9.9.0"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-9.9.0.tgz#acb64d3a7a8f5dac0b1855783a067aabad8d5743"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-9.9.0.tgz"
   integrity sha512-LM4HaLHg/UYJ1CB3VEzneRWk+BMJXH/9Id+v9nYeNzYFPRTxAxfWez2Etd2c+kFreLhCoMtSC4yx44zorqdkSA==
   dependencies:
     "@google-cloud/pubsub" "^2.7.0"
@@ -6957,10 +6957,10 @@ gatsby-plugin-react-helmet@4.2.0:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-gatsby-plugin-sharp@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.2.0.tgz"
-  integrity sha512-+Y4z/Q0bQL+wA1kb9wvAKlSz+o0+2V3IRxhu8kx/0pfpk48Q0apk+v4UMn7l835yocKfsePj8qvW7Ez0D47O9A==
+gatsby-plugin-sharp@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.2.1.tgz"
+  integrity sha512-ZAEiDehEz7VRgykQSVwg0ESu9c+rA2BUfi6+VCi2ppemRezXm+jGUkSTo+WUhjiPmEhQq+IIOOWe4lpslJoZRg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     async "^3.2.0"
@@ -7617,9 +7617,9 @@ google-auth-library@^6.1.1, google-auth-library@^6.1.3:
     lru-cache "^6.0.0"
 
 google-auth-library@^7.0.0, google-auth-library@^7.0.2:
-  version "7.0.3"
-  resolved "https://registry.npmjs.org/google-auth-library/-/google-auth-library-7.0.3.tgz"
-  integrity sha512-6wJNYqY1QUr5I2lWaUkkzOT2b9OCNhNQrdFOt/bsBbGb7T7NCdEvrBsXraUm+KTUGk2xGlQ7m9RgUd4Llcw8NQ==
+  version "7.0.4"
+  resolved "https://registry.npmjs.org/google-auth-library/-/google-auth-library-7.0.4.tgz"
+  integrity sha512-o8irYyeijEiecTXeoEe8UKNEzV1X+uhR4b2oNdapDMZixypp0J+eHimGOyx5Joa3UAeokGngdtDLXtq9vDqG2Q==
   dependencies:
     arrify "^2.0.0"
     base64-js "^1.3.0"
@@ -10589,10 +10589,10 @@ neo-async@^2.6.2:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-netmask@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npmjs.org/netmask/-/netmask-1.0.6.tgz"
-  integrity sha1-ICl+idhvb2QA8lDZ9Pa0wZRfzTU=
+netmask@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/netmask/-/netmask-2.0.2.tgz"
+  integrity sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg==
 
 next-tick@1, next-tick@~1.0.0:
   version "1.0.0"
@@ -11276,13 +11276,13 @@ pac-proxy-agent@^4.1.0:
     socks-proxy-agent "5"
 
 pac-resolver@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/pac-resolver/-/pac-resolver-4.1.0.tgz"
-  integrity sha512-d6lf2IrZJJ7ooVHr7BfwSjRO1yKSJMaiiWYSHcrxSIUtZrCa4KKGwcztdkZ/E9LFleJfjoi1yl+XLR7AX24nbQ==
+  version "4.2.0"
+  resolved "https://registry.npmjs.org/pac-resolver/-/pac-resolver-4.2.0.tgz"
+  integrity sha512-rPACZdUyuxT5Io/gFKUeeZFfE5T7ve7cAkE5TUZRRfuKP0u5Hocwe48X7ZEm6mYB+bTB0Qf+xlVlA/RM/i6RCQ==
   dependencies:
     degenerator "^2.2.0"
     ip "^1.1.5"
-    netmask "^1.0.6"
+    netmask "^2.0.1"
 
 package-json@^6.3.0:
   version "6.5.0"
@@ -14900,10 +14900,15 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.10.0.tgz"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
-tslib@^2, tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@~2.1.0:
+tslib@^2, tslib@^2.0.0, tslib@^2.0.3, tslib@~2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz"
   integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
+
+tslib@^2.0.1:
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.2.0.tgz"
+  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
 
 tslib@~2.0.1:
   version "2.0.3"
