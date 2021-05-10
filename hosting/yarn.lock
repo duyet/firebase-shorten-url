@@ -2564,10 +2564,10 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@4.15.4:
-  version "4.15.4"
-  resolved "https://registry.npmjs.org/antd/-/antd-4.15.4.tgz"
-  integrity sha512-1c0ykHGomcd7QhEeRtynxN3i7fb7JBdnEq2/Yqhf7yzMIhGSfZm+h+A2lTqMOMheCVL6q2ie7lxqhtNLq6sWoQ==
+antd@4.15.5:
+  version "4.15.5"
+  resolved "https://registry.npmjs.org/antd/-/antd-4.15.5.tgz"
+  integrity sha512-zpdwZmdxZfSCVq6t329jXzq4oHZDDrMsD3L/bNilBJz9Y8yJZ0b4wGrWK7TSRipP2KcUB5Udm+bmfv2RBuzzNA==
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
@@ -2603,7 +2603,7 @@ antd@4.15.4:
     rc-table "~7.13.0"
     rc-tabs "~11.7.0"
     rc-textarea "~0.3.0"
-    rc-tooltip "~5.1.0"
+    rc-tooltip "~5.1.1"
     rc-tree "~4.1.0"
     rc-tree-select "~4.3.0"
     rc-trigger "^5.2.1"
@@ -12684,10 +12684,10 @@ rc-textarea@^0.3.0, rc-textarea@~0.3.0:
     rc-resize-observer "^1.0.0"
     rc-util "^5.7.0"
 
-rc-tooltip@^5.0.1, rc-tooltip@~5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/rc-tooltip/-/rc-tooltip-5.1.0.tgz"
-  integrity sha512-pFqD1JZwNIpbdcefB7k5xREoHAWM/k3yQwYF0iminbmDXERgq4rvBfUwIvlCqqZSM7HDr9hYeYr6ZsVNaKtvCQ==
+rc-tooltip@^5.0.1, rc-tooltip@~5.1.1:
+  version "5.1.1"
+  resolved "https://registry.npmjs.org/rc-tooltip/-/rc-tooltip-5.1.1.tgz"
+  integrity sha512-alt8eGMJulio6+4/uDm7nvV+rJq9bsfxFDCI0ljPdbuoygUscbsMYb6EQgwib/uqsXQUvzk+S7A59uYHmEgmDA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     rc-trigger "^5.0.0"
