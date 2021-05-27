@@ -18,7 +18,7 @@
     "babel-eslint": "10.1.0",
     "eslint": "7.27.0",
     "eslint-plugin-promise": "5.1.0",
-    "firebase-tools": "9.11.0"
+    "firebase-tools": "9.12.0"
   },
   "private": true,
   "engines": {
