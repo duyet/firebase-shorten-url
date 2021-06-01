@@ -6524,10 +6524,10 @@ find-versions@^3.0.0:
   dependencies:
     semver-regex "^2.0.0"
 
-firebase-tools@9.12.0:
-  version "9.12.0"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-9.12.0.tgz"
-  integrity sha512-rPk4JyzPaSHyHQDGCh0/U63MW2nXgnZ4h0IRE2EjFHRz+KyNl/hakGX7EQKVej5HpMKFhWRjGOvDHn1PXooQgw==
+firebase-tools@9.12.1:
+  version "9.12.1"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-9.12.1.tgz#c4676f77f95bbaba0a7399c18c15d7edc633cf7b"
+  integrity sha512-izgpgUiG36UwIV12oBu3X8ndACGsxh2cuREnGgTAoTs6P5OC2nEV3riwAak9eQpkuqHfZ6vEuw5ogSbMNqRIgA==
   dependencies:
     "@google-cloud/pubsub" "^2.7.0"
     "@types/archiver" "^5.1.0"
