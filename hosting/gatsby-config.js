@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'duyet shorten url',
     description: 'Shorten URL by Firebase Dynamic Link',
-    author: '@duyetdev',
+    author: '@duyet',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
