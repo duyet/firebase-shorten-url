@@ -4,7 +4,7 @@ This is a demonstrate how to use the Firebase Dynamic Link API to build the shor
 Target:
  - Simple
  - Fast
- - Fast
+ - Fast 😎
 
 Live: https://s.duyet.net
 
@@ -38,7 +38,19 @@ Live: https://s.duyet.net
     ```
     Run: `bash ./env.local.sh`
 
-5. Running in local: https://firebase.google.com/docs/functions/local-emulator
+5. Update the frontend config: `hosting/gatsby-config.js`:
+
+ ```js
+ module.exports = {
+  siteMetadata: {
+    title: 'duyet shorten url',
+    description: 'Shorten URL by Firebase Dynamic Link',
+    author: '@duyet',
+  },
+ ...
+ ```
+
+6. Running in local: https://firebase.google.com/docs/functions/local-emulator
 
     - Export local configs: `firebase functions:config:get > functions/.runtimeconfig.json`
     - Start firebase function: `firebase serve`
