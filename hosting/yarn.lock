@@ -3067,7 +3067,7 @@ axe-core@^4.0.2:
 
 axios@0.24.0:
   version "0.24.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.24.0.tgz#804e6fa1e4b9c5288501dd9dff56a7a0940d20d6"
+  resolved "https://registry.npmjs.org/axios/-/axios-0.24.0.tgz"
   integrity sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==
   dependencies:
     follow-redirects "^1.14.4"
@@ -6622,10 +6622,10 @@ gatsby-plugin-react-helmet@5.0.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-gatsby-plugin-sharp@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.0.0.tgz"
-  integrity sha512-2xeTi2vnEorKph33Th0FAVawpr+y9D0O4hhw2Wecwywu+oWnJLq9JmEXgD1DVj4kvCZUYAA9nAna7agnhOpfVQ==
+gatsby-plugin-sharp@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.0.1.tgz"
+  integrity sha512-j9rw5uZeYQJ3b60l4mtwTkcvmxeQ0TFID7mZw0ULovMwOJvT5R6xerXMbj57SjAom8+RK1NvWlfQcWRAg9aypg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     async "^3.2.1"
