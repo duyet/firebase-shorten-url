@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "babel-eslint": "10.1.0",
-    "eslint": "8.1.0",
+    "eslint": "8.2.0",
     "eslint-plugin-promise": "5.1.1",
     "firebase-tools": "9.22.0"
   },
