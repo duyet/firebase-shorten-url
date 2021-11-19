@@ -1219,9 +1219,9 @@
   integrity sha512-j8yRSSqswWi1QqUGKVEKOG03Q7qOoZP6/h2zN2YO+F5h2+DHU0bSrHCK9Y7lo2DI9fBd8qGAw795sf+3Jva4yA==
 
 "@google-cloud/pubsub@^2.7.0":
-  version "2.18.1"
-  resolved "https://registry.npmjs.org/@google-cloud/pubsub/-/pubsub-2.18.1.tgz"
-  integrity sha512-L2ejjRPszBybsRXJMLHN19UimpchNLNrtE7hJtoZxcy4fhITQGIDk1Ba4LceJYgSMJGA/YatZMYNavgyYpxhvA==
+  version "2.18.3"
+  resolved "https://registry.npmjs.org/@google-cloud/pubsub/-/pubsub-2.18.3.tgz"
+  integrity sha512-0wVJ2msv+UKFMeSf6duvvKBdOkm6GSzgCrL6Rme6FIf0HbJgc08l3QBuBJWXMSspQKyPuXp0oXTpo8iVadP5Ow==
   dependencies:
     "@google-cloud/paginator" "^3.0.0"
     "@google-cloud/precise-date" "^2.0.0"
@@ -1234,7 +1234,7 @@
     arrify "^2.0.0"
     extend "^3.0.2"
     google-auth-library "^7.0.0"
-    google-gax "^2.24.1"
+    google-gax "2.25.3"
     is-stream-ended "^0.1.4"
     lodash.snakecase "^4.1.1"
     p-defer "^3.0.0"
@@ -1380,18 +1380,17 @@
     is-promise "4.0.0"
     tslib "~2.0.1"
 
-"@grpc/grpc-js@~1.4.0":
-  version "1.4.2"
-  resolved "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.4.2.tgz"
-  integrity sha512-aUN6oGk9un8rfYWz73nQgFxPCYJQYd8LpIGguZHBsNduBMyqG6EWANrsVBuTG+nl/l4dKb3x+qi1l9+oxDxqGg==
+"@grpc/grpc-js@~1.3.0":
+  version "1.3.8"
+  resolved "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.3.8.tgz"
+  integrity sha512-4qJqqn+CU/nBydz9ePJP+oa8dz0U42Ut/GejlbyaQ1xTkynCc+ndNHHnISlNeHawDsv4MOAyP3mV/EnDNUw2zA==
   dependencies:
-    "@grpc/proto-loader" "^0.6.4"
     "@types/node" ">=12.12.47"
 
-"@grpc/proto-loader@^0.6.1", "@grpc/proto-loader@^0.6.4":
-  version "0.6.6"
-  resolved "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.6.6.tgz"
-  integrity sha512-cdMaPZ8AiFz6ua6PUbP+LKbhwJbFXnrQ/mlnKGUyzDUZ3wp7vPLksnmLCBX6SHgSmjX7CbNVNLFYD5GmmjO4GQ==
+"@grpc/proto-loader@^0.6.1":
+  version "0.6.7"
+  resolved "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.6.7.tgz"
+  integrity sha512-QzTPIyJxU0u+r2qGe8VMl3j/W2ryhEvBv7hc42OjYfthSj370fUrb7na65rG6w3YLZS/fb8p89iTBobfWGDgdw==
   dependencies:
     "@types/long" "^4.0.1"
     lodash.camelcase "^4.3.0"
@@ -3327,9 +3326,9 @@ better-queue@^3.8.10:
     uuid "^3.0.0"
 
 big-integer@^1.6.17:
-  version "1.6.50"
-  resolved "https://registry.npmjs.org/big-integer/-/big-integer-1.6.50.tgz"
-  integrity sha512-+O2uoQWFRo8ysZNo/rjtri2jIwjr3XfeAgRjAUADRqGG+ZITvyn8J1kvXLTaKVr3hhGXk+f23tKfdzmklVM9vQ==
+  version "1.6.51"
+  resolved "https://registry.npmjs.org/big-integer/-/big-integer-1.6.51.tgz"
+  integrity sha512-GPEid2Y9QU1Exl1rpO9B2IPJGHPSupF5GnVIP0blYvNOMer2bTvSWs1jGOUg04hTmu67nmLsQ9TBo1puaotBHg==
 
 big.js@^5.2.2:
   version "5.2.2"
@@ -3937,16 +3936,9 @@ cli-spinners@^2.0.0:
   resolved "https://registry.npmjs.org/cli-spinners/-/cli-spinners-2.6.1.tgz"
   integrity sha512-x/5fWmGMnbKQAaNwN+UZlV79qBLM9JFnJuJ03gIi5whrob0xV0ofNVHy9DhwGdsMJQc2OKv0oGmLzvaqvAVv+g==
 
-cli-table@^0.3.1:
-  version "0.3.6"
-  resolved "https://registry.npmjs.org/cli-table/-/cli-table-0.3.6.tgz"
-  integrity sha512-ZkNZbnZjKERTY5NwC2SeMeLeifSPq/pubeRoTpdr3WchLlnZg6hEgvHkK5zL7KNFdd9PmHN8lxrENUwI3cE8vQ==
-  dependencies:
-    colors "1.0.3"
-
-cli-table@^0.3.8:
+cli-table@^0.3.1, cli-table@^0.3.8:
   version "0.3.8"
-  resolved "https://registry.yarnpkg.com/cli-table/-/cli-table-0.3.8.tgz#d3629cbf893459a8ad99671554e702a1c6d48a01"
+  resolved "https://registry.npmjs.org/cli-table/-/cli-table-0.3.8.tgz"
   integrity sha512-5IO15fJRzgM+hHZjvQlqD6UPRuVGWR4Ny5ZzaM5VJxJEQqSIEVyVh9dMAUN6CBAVfMc4/6CFEzbhnRftLRCyug==
   dependencies:
     colors "1.0.3"
@@ -5528,10 +5520,10 @@ eslint-plugin-react-hooks@4.3.0, eslint-plugin-react-hooks@^4.2.0:
   resolved "https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.3.0.tgz"
   integrity sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==
 
-eslint-plugin-react@7.27.0, eslint-plugin-react@^7.26.1:
-  version "7.27.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.27.0.tgz"
-  integrity sha512-0Ut+CkzpppgFtoIhdzi2LpdpxxBvgFf99eFqWxJnUrO7mMe0eOiNpou6rvNYeVVV6lWZvTah0BFne7k5xHjARg==
+eslint-plugin-react@7.27.1, eslint-plugin-react@^7.26.1:
+  version "7.27.1"
+  resolved "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.27.1.tgz"
+  integrity sha512-meyunDjMMYeWr/4EBLTV1op3iSG3mjT/pz5gti38UzfM4OPpNc2m0t2xvKCOMU5D6FSdd34BIMFOvQbW+i8GAA==
   dependencies:
     array-includes "^3.1.4"
     array.prototype.flatmap "^1.2.5"
@@ -6220,7 +6212,7 @@ find-up@^3.0.0:
 
 firebase-tools@9.23.0:
   version "9.23.0"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-9.23.0.tgz#d69efa48b075fb34b496f98b628c4285ba84e856"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-9.23.0.tgz"
   integrity sha512-m5Yj8EBk6kyLktSV0qgvjjjjxZpp6p/ujDH5c6wQpq3dcH3LquK9D4gjmz7XJtfd7F5ww0XkjWsXra5mHcg5Iw==
   dependencies:
     "@google-cloud/pubsub" "^2.7.0"
@@ -7285,12 +7277,12 @@ google-auth-library@^7.0.0, google-auth-library@^7.6.1:
     jws "^4.0.0"
     lru-cache "^6.0.0"
 
-google-gax@^2.24.1:
-  version "2.28.0"
-  resolved "https://registry.npmjs.org/google-gax/-/google-gax-2.28.0.tgz"
-  integrity sha512-kuqc8a4+CTCMBcF3tlOL7Sa74JWkTzcZxatAQTCVK35WToXkHnJ0qncFOJuegUv3EbV9IQY4j/+NZdFLv+lbTA==
+google-gax@2.25.3:
+  version "2.25.3"
+  resolved "https://registry.npmjs.org/google-gax/-/google-gax-2.25.3.tgz"
+  integrity sha512-E9d8DuVM8cALQr3YFmcMqPWi3ZzaWPME06IHO0BfZvE40wWThsBhhpiGKAy38Qk6nR5Ezpvz46PqsOVVYqMAMQ==
   dependencies:
-    "@grpc/grpc-js" "~1.4.0"
+    "@grpc/grpc-js" "~1.3.0"
     "@grpc/proto-loader" "^0.6.1"
     "@types/long" "^4.0.0"
     abort-controller "^3.0.0"
@@ -10246,9 +10238,9 @@ node-gyp-build@^4.2.3:
   integrity sha512-iWjXZvmboq0ja1pUGULQBexmxq8CV4xBhX7VDOTbL7ZR4FOowwY/VOtRxBN/yKxmdGoIp4j5ysNT4u3S2pDQ3Q==
 
 node-gyp@^8.0.0:
-  version "8.3.0"
-  resolved "https://registry.npmjs.org/node-gyp/-/node-gyp-8.3.0.tgz"
-  integrity sha512-e+vmKyTiybKgrmvs4M2REFKCnOd+NcrAAnn99Yko6NQA+zZdMlRvbIUHojfsHrSQ1CddLgZnHicnEVgDHziJzA==
+  version "8.4.0"
+  resolved "https://registry.npmjs.org/node-gyp/-/node-gyp-8.4.0.tgz"
+  integrity sha512-Bi/oCm5bH6F+FmzfUxJpPaxMEyIhszULGR3TprmTeku8/dMFcdTcypk120NeZqEt54r1BrgEKtm2jJiuIKE28Q==
   dependencies:
     env-paths "^2.2.0"
     glob "^7.1.4"
@@ -11471,11 +11463,13 @@ proper-lockfile@^4.1.2:
     signal-exit "^3.0.2"
 
 proto3-json-serializer@^0.1.1:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/proto3-json-serializer/-/proto3-json-serializer-0.1.5.tgz"
-  integrity sha512-G395jcZkgNXNeS+6FGqd09TsXeoCs9wmBWByDiwFy7Yd7HD8pyfyvf6q+rGh7PhT4AshRpG4NowzoKYUtkNjKg==
+  version "0.1.6"
+  resolved "https://registry.npmjs.org/proto3-json-serializer/-/proto3-json-serializer-0.1.6.tgz"
+  integrity sha512-tGbV6m6Kad8NqxMh5hw87euPS0YoZSAOIfvR01zYkQV8Gpx1V/8yU/0gCKCvfCkhAJsjvzzhnnsdQxA1w7PSog==
+  dependencies:
+    protobufjs "^6.11.2"
 
-protobufjs@6.11.2, protobufjs@^6.10.0:
+protobufjs@6.11.2, protobufjs@^6.10.0, protobufjs@^6.11.2:
   version "6.11.2"
   resolved "https://registry.npmjs.org/protobufjs/-/protobufjs-6.11.2.tgz"
   integrity sha512-4BQJoPooKJl2G9j3XftkIXjoC9C0Av2NOrWmbLWT1vH32GcSUHjM0Arra6UfTsVyfMAuFzaLucXn1sadxJydAw==
@@ -12648,9 +12642,9 @@ rimraf@^3.0.0, rimraf@^3.0.2:
     glob "^7.1.3"
 
 router@^1.3.1:
-  version "1.3.5"
-  resolved "https://registry.npmjs.org/router/-/router-1.3.5.tgz"
-  integrity sha512-kozCJZUhuSJ5VcLhSb3F8fsmGXy+8HaDbKCAerR1G6tq3mnMZFMuSohbFvGv1c5oMFipijDjRZuuN/Sq5nMf3g==
+  version "1.3.6"
+  resolved "https://registry.npmjs.org/router/-/router-1.3.6.tgz"
+  integrity sha512-gsjhou+LFApzkIP8VDrouG6Z4pqkeF11n3o5orlwPPvPTl0x7c+dbF71itKOhDoFHygmc3N3uqm55Uq/gIDUwg==
   dependencies:
     array-flatten "3.0.0"
     debug "2.6.9"
