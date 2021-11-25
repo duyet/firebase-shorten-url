@@ -9,10 +9,10 @@
   dependencies:
     "@ctrl/tinycolor" "^3.4.0"
 
-"@ant-design/compatible@1.0.8":
-  version "1.0.8"
-  resolved "https://registry.npmjs.org/@ant-design/compatible/-/compatible-1.0.8.tgz"
-  integrity sha512-nwIf0ev3kXO6m6DrGarMsDLfL/a9xvcVRzvxmPDtMKLbiLMrPwqSOxvE7gPoZwM/X6gcMdkJUvvH2orQtdtT4Q==
+"@ant-design/compatible@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@ant-design/compatible/-/compatible-1.1.0.tgz"
+  integrity sha512-ljjXb3Yz4IpO1LYvXkngKT37y6Sjy+f3UUq0bzdcPbgnNZS3OzB2ygqIJ6TeMvlJDAYF9Q8bNelur7tEdgzSdw==
   dependencies:
     "@ant-design/icons" "^4.0.0"
     classnames "^2.2.6"
