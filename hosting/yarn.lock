@@ -6150,10 +6150,10 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firebase-tools@9.23.2:
-  version "9.23.2"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-9.23.2.tgz"
-  integrity sha512-t9Hr9Q11n9LlqhFkTfrxdd6Un4TJTg76f8r/8tse7M+VQZhdKsA/aKGZqSsZpqF36IFUCLQWt0CSwMZFQZqrBQ==
+firebase-tools@10.0.0:
+  version "10.0.0"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-10.0.0.tgz"
+  integrity sha512-2OUoI8j8u6GMHgzh+zEmvWrfN6OWT0U14HHeLBvQjrBm4+hzz/VseFLQWkLSyWec7BAQOZWf+UqQ2jm39JfYdQ==
   dependencies:
     "@google-cloud/pubsub" "^2.7.0"
     "@types/archiver" "^5.1.0"
