@@ -3895,13 +3895,12 @@ cli-spinners@^2.0.0:
   resolved "https://registry.npmjs.org/cli-spinners/-/cli-spinners-2.6.1.tgz"
   integrity sha512-x/5fWmGMnbKQAaNwN+UZlV79qBLM9JFnJuJ03gIi5whrob0xV0ofNVHy9DhwGdsMJQc2OKv0oGmLzvaqvAVv+g==
 
-cli-table@^0.3.1, cli-table@^0.3.8:
-  version "0.3.8"
-  resolved "https://registry.npmjs.org/cli-table/-/cli-table-0.3.8.tgz"
-  integrity sha512-5IO15fJRzgM+hHZjvQlqD6UPRuVGWR4Ny5ZzaM5VJxJEQqSIEVyVh9dMAUN6CBAVfMc4/6CFEzbhnRftLRCyug==
+cli-table@0.3.11, cli-table@^0.3.1:
+  version "0.3.11"
+  resolved "https://registry.npmjs.org/cli-table/-/cli-table-0.3.11.tgz"
+  integrity sha512-IqLQi4lO0nIB4tcdTpN4LCB9FI3uqrJZK7RC515EnhZ6qBaglkIgICb1wjeAqpdoOabm1+SuQtkXIPdYC93jhQ==
   dependencies:
     colors "1.0.3"
-    strip-ansi "^6.0.1"
 
 cli-width@^2.0.0:
   version "2.2.1"
@@ -6151,10 +6150,10 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firebase-tools@9.23.1:
-  version "9.23.1"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-9.23.1.tgz"
-  integrity sha512-voBcfApvEyyuFGFg0ypmtSldFLtifDquxix1htLHll6PFvmSzBOCz+1U4manzOnoUMBcy8cVNhNNgDgcErzgHQ==
+firebase-tools@9.23.2:
+  version "9.23.2"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-9.23.2.tgz"
+  integrity sha512-t9Hr9Q11n9LlqhFkTfrxdd6Un4TJTg76f8r/8tse7M+VQZhdKsA/aKGZqSsZpqF36IFUCLQWt0CSwMZFQZqrBQ==
   dependencies:
     "@google-cloud/pubsub" "^2.7.0"
     "@types/archiver" "^5.1.0"
@@ -6166,7 +6165,7 @@ firebase-tools@9.23.1:
     chokidar "^3.0.2"
     cjson "^0.3.1"
     cli-color "^1.2.0"
-    cli-table "^0.3.8"
+    cli-table "0.3.11"
     commander "^4.0.1"
     configstore "^5.0.1"
     cors "^2.8.5"
