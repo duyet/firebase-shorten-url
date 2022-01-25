@@ -33,11 +33,13 @@ Live: https://s.duyet.net
 
 4. Setup env variables, copy and modify `env.default.sh` to `env.local.sh`
 
-   Get the api_key at **Project settings > General > Web API Key**
+   Get the `api_key` by **Project settings > General > Web API Key**
+   
+   Get the `domain_uri_prefix` by **Dynamic Links**, then **Add URL prefix**
 
     ```
-    firebase functions:config:set config.api_key=
-    firebase functions:config:set config.domain_uri_prefix=
+    firebase functions:config:set config.api_key=AIzaSyC8mZm**********
+    firebase functions:config:set config.domain_uri_prefix=duyet.page.link
     ```
     Run: `bash ./env.local.sh`
 
