@@ -17,7 +17,7 @@ Live: https://s.duyet.net
 
 1. Set up Node.js and the Firebase CLI
     ```
-    yarn global addfirebase-tools
+    yarn global add firebase-tools
     ```
 
     To initialize project: Run `firebase login` to log in via the browser and authenticate the firebase tool.
@@ -32,6 +32,9 @@ Live: https://s.duyet.net
 3. Go to https://console.firebase.google.com and create new project.
 
 4. Setup env variables, copy and modify `env.default.sh` to `env.local.sh`
+
+   Get the api_key at **Project settings > General > Web API Key**
+
     ```
     firebase functions:config:set config.api_key=
     firebase functions:config:set config.domain_uri_prefix=
