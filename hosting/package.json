@@ -34,8 +34,8 @@
     "react-helmet": "6.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
-    "babel-loader": "8.2.3",
+    "@babel/eslint-parser": "^7.5.4",
+    "@babel/preset-react": "^7.16.7",
     "eslint": "8.8.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
@@ -57,5 +57,10 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
   }
 }

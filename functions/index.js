@@ -56,7 +56,6 @@ exports.addUrl = functions.https.onRequest(async (req, res) => {
 exports.analytics = functions.https.onRequest(async (req, res) => {
     const shortDynamicLink = req.query.shortLink || req.body.shortLink || null;
     const durationDays = req.query.durationDays || req.body.durationDays || 30;
-
     const requestUrl = `https://firebasedynamiclinks.googleapis.com/v1/${shortDynamicLink}/linkStats?durationDays=${durationDays}&key=${apiKey}`;
 
     try {

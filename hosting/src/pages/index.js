@@ -21,7 +21,7 @@ class IndexPage extends React.Component {
     result: null,
     error: null,
     loading: false
-  }
+  };
 
   onSubmit = (e) => {
     this.setState({ loading: true });
@@ -51,11 +51,11 @@ class IndexPage extends React.Component {
     if (e) {
       e.preventDefault();
     }
-  }
+  };
 
   onChangeInput = (e) => {
     this.setState({ url: e.target.value });
-  }
+  };
 
   render() {
     return (

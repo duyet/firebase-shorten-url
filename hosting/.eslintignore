@@ -2,3 +2,4 @@
 /public/*
 /node_modules/*
 firebase-messaging-sw.js
+gatsby-*.js

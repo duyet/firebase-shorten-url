@@ -15,7 +15,9 @@
     "firebase-functions": "3.17.1"
   },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
+    "@babel/core": "^7.17.0",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-react": "^7.16.7",
     "eslint": "8.8.0",
     "eslint-plugin-promise": "6.0.0",
     "firebase-tools": "10.1.4"
@@ -23,5 +25,10 @@
   "private": true,
   "engines": {
     "node": "16"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
   }
 }
