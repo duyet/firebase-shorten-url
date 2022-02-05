@@ -5,14 +5,8 @@ on:
     branches:
       - master
     paths:
-      # F*king golang https://help.github.com/en/articles/workflow-syntax-for-github-actions#onpushpull_requestpaths
-      - 'hosting/*'
-      - 'hosting/*/*'
-      - 'hosting/*/*/*'
-      - 'hosting/*/*/*/*'
-      - 'hosting/*/*/*/*/*'
-      - 'hosting/*/*/*/*/*/*'
-      - 'hosting/*/*/*/*/*/*/*'
+      - 'hosting/**'
+      - '.github/**'
 
 jobs:
   deploy:
@@ -26,12 +20,12 @@ jobs:
       - name: Run Eslint
         run: |
           cd hosting
-          npm install
-          npm run lint
+          yarn
+          yarn lint
       - name: Deploy hosting
         run: |
           cd hosting
-          npm install
-          npm run build
+          yarn
+          yarn build
           export FIREBASE_TOKEN=${{ secrets.FIREBASE_TOKEN }}
-          npm run deploy
+          yarn deploy
