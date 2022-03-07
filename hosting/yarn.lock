@@ -7171,10 +7171,10 @@ gatsby-worker@^1.9.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@4.9.1:
-  version "4.9.1"
-  resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.9.1.tgz"
-  integrity sha512-wKqtlHxfTL4a4xmC8Jc0XXZkLLR8YcamubBeyHnhUZiJr4RDnrXr7DIcEHHkVUybyP2aw5jAjjdPA14lrbW7zg==
+gatsby@4.9.2:
+  version "4.9.2"
+  resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.9.2.tgz"
+  integrity sha512-dYUcCLZbyRIuzaswqxSzYFSGs+o1rdJFqZb6AODnq9jsMeDjN2jRC4DieDLzrWwDJCerW3rupDrHWsNfDj68Mw==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -7271,7 +7271,7 @@ gatsby@4.9.1:
     joi "^17.4.2"
     json-loader "^0.5.7"
     latest-version "5.1.0"
-    lmdb "2.2.1"
+    lmdb "^2.2.3"
     lodash "^4.17.21"
     md5-file "^5.0.0"
     meant "^1.0.3"
@@ -9184,10 +9184,10 @@ listenercount@~1.0.1:
   resolved "https://registry.npmjs.org/listenercount/-/listenercount-1.0.1.tgz"
   integrity sha1-hMinKrWcRyUyFIDJdeZQg0LnCTc=
 
-lmdb@2.2.1, lmdb@^2.0.2, lmdb@^2.1.7:
-  version "2.2.1"
-  resolved "https://registry.npmjs.org/lmdb/-/lmdb-2.2.1.tgz"
-  integrity sha512-tUlIjyJvbd4mqdotI9Xe+3PZt/jqPx70VKFDrKMYu09MtBWOT3y2PbuTajX+bJFDjbgLkQC0cTx2n6dithp/zQ==
+lmdb@^2.0.2, lmdb@^2.1.7, lmdb@^2.2.3:
+  version "2.2.4"
+  resolved "https://registry.npmjs.org/lmdb/-/lmdb-2.2.4.tgz"
+  integrity sha512-gto+BB2uEob8qRiTlOq+R3uX0YNHsX9mjxj9Sbdue/LIKqu6IlZjrsjKeGyOMquc/474GEqFyX2pdytpydp0rQ==
   dependencies:
     msgpackr "^1.5.4"
     nan "^2.14.2"
