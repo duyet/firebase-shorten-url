@@ -4031,7 +4031,7 @@ cacheable-request@^6.0.0:
     normalize-url "^4.1.0"
     responselike "^1.0.2"
 
-cacheable-request@^7.0.1, cacheable-request@^7.0.2:
+cacheable-request@^7.0.2:
   version "7.0.2"
   resolved "https://registry.npmjs.org/cacheable-request/-/cacheable-request-7.0.2.tgz"
   integrity sha512-pouW8/FmiPQbuGpkXQ9BAPv/Mo5xDGANgSNXzTzJ8DrKGuXOssM4wIQRjfanNRh3Yu5cfYPvcorqbhg2KIJtew==
@@ -4773,10 +4773,10 @@ crc32-stream@^4.0.1:
     crc-32 "^1.2.0"
     readable-stream "^3.4.0"
 
-create-gatsby@^2.10.0:
-  version "2.10.0"
-  resolved "https://registry.npmjs.org/create-gatsby/-/create-gatsby-2.10.0.tgz"
-  integrity sha512-RklY/nrUSlIGgWSLuhn+8ZXOecs+IOs+vqt3RRhpN0pcuMbV/4sgE8DZnfXepG3zlEVXZkG1Cq0Q4sthhDhfJA==
+create-gatsby@^2.10.1:
+  version "2.10.1"
+  resolved "https://registry.npmjs.org/create-gatsby/-/create-gatsby-2.10.1.tgz"
+  integrity sha512-zkAtC6TLr6nNmZd2yKqnXuEMX2vX9ciu4VBtMY+4J/nQ/cV77xCAmoU9MCAjVDoLp2h8pNckYE1lneFxmhIgkQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
 
@@ -5114,7 +5114,14 @@ debug@^3.0.0, debug@^3.1.0, debug@^3.2.6, debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1, debug@^4.1.0, debug@^4.3.2, debug@^4.3.3:
+debug@^4.0.1, debug@^4.3.3:
+  version "4.3.4"
+  resolved "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+  dependencies:
+    ms "2.1.2"
+
+debug@^4.1.0, debug@^4.3.2:
   version "4.3.3"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.3.tgz"
   integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
@@ -6855,10 +6862,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-cli@^4.10.0:
-  version "4.10.0"
-  resolved "https://registry.npmjs.org/gatsby-cli/-/gatsby-cli-4.10.0.tgz"
-  integrity sha512-Y1H5ooydHiVX9T3Noy7xphr7jdqCKZVX3PFJTmzOrDn6cpGmNcG+Bbf6T0OaZwpQDDQp+eL7yMWYlhNrJfbAkg==
+gatsby-cli@^4.10.1:
+  version "4.10.1"
+  resolved "https://registry.npmjs.org/gatsby-cli/-/gatsby-cli-4.10.1.tgz"
+  integrity sha512-bv1xJEAcv4vT3DKdOqT1W8qe4L0Yvw5sZoSXDSKX9K9YSGu/CnBJXPa31rNrv357mc4CyAf/Vdfnzvr0tNN+iQ==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -6876,7 +6883,7 @@ gatsby-cli@^4.10.0:
     common-tags "^1.8.2"
     configstore "^5.0.1"
     convert-hrtime "^3.0.0"
-    create-gatsby "^2.10.0"
+    create-gatsby "^2.10.1"
     envinfo "^7.8.1"
     execa "^5.1.1"
     fs-exists-cached "^1.0.0"
@@ -7006,21 +7013,21 @@ gatsby-plugin-google-gtag@4.10.0:
     "@babel/runtime" "^7.15.4"
     minimatch "^3.0.4"
 
-gatsby-plugin-manifest@4.10.0:
-  version "4.10.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.10.0.tgz"
-  integrity sha512-UZ0gH09dESRVdpIXeTNd3PDTpeDf38h87Et1nRznBqewWR4TtD0YHG1/s7irRT1BN+me7ea8veP6iHwxouv8WQ==
+gatsby-plugin-manifest@4.10.1:
+  version "4.10.1"
+  resolved "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.10.1.tgz"
+  integrity sha512-D4WYQD1gDdyvWt8RYl4OC/i7thPkgtkm+kZW+d1JVpUTu+BrbdPYCIUMGdSrDyKxx3x0bhMmEf9hZW25acew0Q==
   dependencies:
     "@babel/runtime" "^7.15.4"
     gatsby-core-utils "^3.10.0"
-    gatsby-plugin-utils "^3.4.0"
+    gatsby-plugin-utils "^3.4.1"
     semver "^7.3.5"
     sharp "^0.30.1"
 
-gatsby-plugin-offline@5.10.0:
-  version "5.10.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-offline/-/gatsby-plugin-offline-5.10.0.tgz"
-  integrity sha512-UInZjkLoq8+zlLhP5wKfvd3guetKYDNeHtA0pmg1tJXaqDriVSuwYg/S0mASDS8OYyjOEu8YrahxPMArHndlDA==
+gatsby-plugin-offline@5.10.1:
+  version "5.10.1"
+  resolved "https://registry.npmjs.org/gatsby-plugin-offline/-/gatsby-plugin-offline-5.10.1.tgz"
+  integrity sha512-l33iJlXfnY9xg3iEG1qCyu7bz0tnoMzocUY1KUCE2I4FMhSHtzMzcHqVHlrULbaye0fxikwsQ9oEX0bZPBuMHA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     cheerio "^1.0.0-rc.10"
@@ -7030,10 +7037,10 @@ gatsby-plugin-offline@5.10.0:
     lodash "^4.17.21"
     workbox-build "^4.3.1"
 
-gatsby-plugin-page-creator@^4.10.0:
-  version "4.10.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.10.0.tgz"
-  integrity sha512-DnyZgxNMKpLCCpabFTRL3R2T0c/Q7UEfQyurr2IgMhiniQJ1tVLc54CTy3rsF1kuo95J9uBrk6ky5D+hcuCjgA==
+gatsby-plugin-page-creator@^4.10.1:
+  version "4.10.1"
+  resolved "https://registry.npmjs.org/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.10.1.tgz"
+  integrity sha512-tTN4qHH2n7CiV/MNx/FcnBBOmCWzlMkpIR6AtJfxdO5sncn3XIEwMKNxvp9WUm2bevUodlynxlER1dOtgj+DJA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@babel/traverse" "^7.15.4"
@@ -7042,7 +7049,7 @@ gatsby-plugin-page-creator@^4.10.0:
     fs-exists-cached "^1.0.0"
     gatsby-core-utils "^3.10.0"
     gatsby-page-utils "^2.10.0"
-    gatsby-plugin-utils "^3.4.0"
+    gatsby-plugin-utils "^3.4.1"
     gatsby-telemetry "^3.10.0"
     globby "^11.0.4"
     lodash "^4.17.21"
@@ -7054,10 +7061,10 @@ gatsby-plugin-react-helmet@5.10.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
-gatsby-plugin-sharp@4.10.0:
-  version "4.10.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.10.0.tgz"
-  integrity sha512-rdTpbL/E01klO+Kfa+zmRlWRWSOQoaCLeUbwLobzKeSC80JfSg8yl+dVLC7ipfGqzZtacuq6JU5TJcy3bau89A==
+gatsby-plugin-sharp@4.10.1:
+  version "4.10.1"
+  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.10.1.tgz"
+  integrity sha512-Y+kB5BSfcxMYO5s13W3NDeDH28RCzSa8goo1yQNTISiGaC6iBO4EIEVbUiUBkoLA5nf46J71ve8A3sprZ66bog==
   dependencies:
     "@babel/runtime" "^7.15.4"
     async "^3.2.3"
@@ -7066,7 +7073,7 @@ gatsby-plugin-sharp@4.10.0:
     filenamify "^4.3.0"
     fs-extra "^10.0.0"
     gatsby-core-utils "^3.10.0"
-    gatsby-plugin-utils "^3.4.0"
+    gatsby-plugin-utils "^3.4.1"
     gatsby-telemetry "^3.10.0"
     got "^11.8.3"
     lodash "^4.17.21"
@@ -7092,12 +7099,13 @@ gatsby-plugin-typescript@^4.10.0:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^4.10.0"
 
-gatsby-plugin-utils@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-utils/-/gatsby-plugin-utils-3.4.0.tgz"
-  integrity sha512-ACMIJZ/yaGDgNfw3cIGytbrIMK88rvv/r/Art6gPgu7g664uAh4FDnVqJQyFbJ3G+3gCRKtNs4sRxEx2fJib9A==
+gatsby-plugin-utils@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.npmjs.org/gatsby-plugin-utils/-/gatsby-plugin-utils-3.4.1.tgz"
+  integrity sha512-sDMVGauxMgXyX8WGZDndZI2vIaolJzlXBMdKhgP7DIT+Qa5wjvyHWvZy34dxtVrT3IHPK/PRMgpE81Gr7gKveg==
   dependencies:
     "@babel/runtime" "^7.15.4"
+    fs-extra "^10.0.0"
     gatsby-core-utils "^3.10.0"
     gatsby-sharp "^0.4.0"
     graphql-compose "^9.0.7"
@@ -7180,10 +7188,10 @@ gatsby-worker@^1.10.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@4.10.0:
-  version "4.10.0"
-  resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.10.0.tgz"
-  integrity sha512-jC4qmV5xKOId6iKwDjbfmZ2uV20682QyFcgI536lXjaLggJYFt/bB9Fka/NdHosIos3awUk3awbTdc2HUGhUkg==
+gatsby@4.10.1:
+  version "4.10.1"
+  resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.10.1.tgz"
+  integrity sha512-UCapYjofrdxa3bIjMUN0Y+EUIEHNX/srOonv03UeZRKHshwAPe6g1eZfXK4iFNy8LxNsH947D5hLN63pNK77zg==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -7254,16 +7262,16 @@ gatsby@4.10.0:
     find-cache-dir "^3.3.2"
     fs-exists-cached "1.0.0"
     fs-extra "^10.0.0"
-    gatsby-cli "^4.10.0"
+    gatsby-cli "^4.10.1"
     gatsby-core-utils "^3.10.0"
     gatsby-graphiql-explorer "^2.10.0"
     gatsby-legacy-polyfills "^2.10.0"
     gatsby-link "^4.10.0"
     gatsby-page-utils "^2.10.0"
     gatsby-parcel-config "^0.1.0"
-    gatsby-plugin-page-creator "^4.10.0"
+    gatsby-plugin-page-creator "^4.10.1"
     gatsby-plugin-typescript "^4.10.0"
-    gatsby-plugin-utils "^3.4.0"
+    gatsby-plugin-utils "^3.4.1"
     gatsby-react-router-scroll "^5.10.0"
     gatsby-telemetry "^3.10.0"
     gatsby-worker "^1.10.0"
@@ -7693,24 +7701,7 @@ google-p12-pem@^3.0.3:
   dependencies:
     node-forge "^1.0.0"
 
-got@^11.8.2:
-  version "11.8.2"
-  resolved "https://registry.npmjs.org/got/-/got-11.8.2.tgz"
-  integrity sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==
-  dependencies:
-    "@sindresorhus/is" "^4.0.0"
-    "@szmarczak/http-timer" "^4.0.5"
-    "@types/cacheable-request" "^6.0.1"
-    "@types/responselike" "^1.0.0"
-    cacheable-lookup "^5.0.3"
-    cacheable-request "^7.0.1"
-    decompress-response "^6.0.0"
-    http2-wrapper "^1.0.0-beta.5.2"
-    lowercase-keys "^2.0.0"
-    p-cancelable "^2.0.0"
-    responselike "^2.0.0"
-
-got@^11.8.3:
+got@^11.8.2, got@^11.8.3:
   version "11.8.3"
   resolved "https://registry.npmjs.org/got/-/got-11.8.3.tgz"
   integrity sha512-7gtQ5KiPh1RtGS9/Jbv1ofDpBFuq42gyfEib+ejaRBJuj/3tQFeR5+gw57e4ipaU8c/rCjvX6fkQz2lyDlGAOg==
@@ -9089,9 +9080,9 @@ keyv@^3.0.0:
     json-buffer "3.0.0"
 
 keyv@^4.0.0:
-  version "4.0.4"
-  resolved "https://registry.npmjs.org/keyv/-/keyv-4.0.4.tgz"
-  integrity sha512-vqNHbAc8BBsxk+7QBYLW0Y219rWcClspR6WSeoHYKG5mnsSoOH+BL1pWq02DDCVdvvuUny5rkBlzMRzoqc+GIg==
+  version "4.0.3"
+  resolved "https://registry.npmjs.org/keyv/-/keyv-4.0.3.tgz"
+  integrity sha512-zdGa2TOpSZPq5mU6iowDARnMBZgtCqJ11dJROFi6tg6kTn4nuUdU09lFyLFSaHrWqpIJ+EBq4E8/Dc0Vx5vLdA==
   dependencies:
     json-buffer "3.0.1"
 
