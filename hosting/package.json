@@ -46,7 +46,7 @@
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.4.0",
     "firebase-tools": "10.5.0",
-    "prettier": "2.6.1"
+    "prettier": "2.6.2"
   },
   "keywords": [
     "gatsby"
