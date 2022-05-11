@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "0.27.2",
     "firebase-admin": "10.2.0",
-    "firebase-functions": "3.21.0"
+    "firebase-functions": "3.21.1"
   },
   "devDependencies": {
     "@babel/core": "7.17.10",
