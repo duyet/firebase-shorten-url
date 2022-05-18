@@ -20,7 +20,7 @@
     "@babel/preset-react": "7.17.12",
     "eslint": "8.15.0",
     "eslint-plugin-promise": "6.0.0",
-    "firebase-tools": "10.9.2"
+    "firebase-tools": "11.0.0"
   },
   "private": true,
   "engines": {
