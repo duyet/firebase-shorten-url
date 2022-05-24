@@ -6526,9 +6526,9 @@ fast-levenshtein@^2.0.6, fast-levenshtein@~2.0.6:
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
 fast-safe-stringify@^2.0.4:
-  version "2.0.7"
-  resolved "https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz"
-  integrity sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.1.1.tgz"
+  integrity sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==
 
 fast-text-encoding@^1.0.0, fast-text-encoding@^1.0.3:
   version "1.0.3"
@@ -6741,10 +6741,10 @@ firebase-frameworks@^0.4.2:
     semver "^7.3.7"
     tslib "^2.3.1"
 
-firebase-tools@11.0.0:
-  version "11.0.0"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-11.0.0.tgz"
-  integrity sha512-sSJ7zdfbqwOhjWZCgRqWAzWIRMNdpDV2nVHZCb3V4iMsEaGiOt1fATKoUT5zyXhNA1tYThYljzgfmVgg5cyy2A==
+firebase-tools@11.0.1:
+  version "11.0.1"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-11.0.1.tgz"
+  integrity sha512-be5Xx2FbdW0G2YMpxsIcNaFuekeiRgFRPScVbXhnfHLIOUJ/ETYCNrQEndzhprVlawl6l6EW9H18DRx61I5RKQ==
   dependencies:
     "@google-cloud/pubsub" "^2.19.4"
     abort-controller "^3.0.0"
