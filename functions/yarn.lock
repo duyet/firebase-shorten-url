@@ -360,10 +360,10 @@
   resolved "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.2.tgz"
   integrity sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw==
 
-"@google-cloud/firestore@^4.15.1":
-  version "4.15.1"
-  resolved "https://registry.npmjs.org/@google-cloud/firestore/-/firestore-4.15.1.tgz"
-  integrity sha512-2PWsCkEF1W02QbghSeRsNdYKN1qavrHBP3m72gPDMHQSYrGULOaTi7fSJquQmAtc4iPVB2/x6h80rdLHTATQtA==
+"@google-cloud/firestore@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@google-cloud/firestore/-/firestore-5.0.2.tgz#36923fde45987f928a220d347f341c5602f9e340"
+  integrity sha512-xlGcNYaW0nvUMzNn2+pLfbEBVt6oysVqtM89faMgZWkWfEtvIQGS0h5PRdLlcqufNzRCX3yIGv29Pb+03ys+VA==
   dependencies:
     fast-deep-equal "^3.1.1"
     functional-red-black-tree "^1.0.1"
@@ -401,6 +401,11 @@
   resolved "https://registry.npmjs.org/@google-cloud/promisify/-/promisify-2.0.4.tgz"
   integrity sha512-j8yRSSqswWi1QqUGKVEKOG03Q7qOoZP6/h2zN2YO+F5h2+DHU0bSrHCK9Y7lo2DI9fBd8qGAw795sf+3Jva4yA==
 
+"@google-cloud/promisify@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/promisify/-/promisify-3.0.0.tgz#5cd6941fc30c4acac18051706aa5af96069bd3e3"
+  integrity sha512-91ArYvRgXWb73YvEOBMmOcJc0bDRs5yiVHnqkwoG0f3nm7nZuipllz6e7BvFESBvjkDTBC0zMD8QxedUwNLc1A==
+
 "@google-cloud/pubsub@^3.0.1":
   version "3.0.1"
   resolved "https://registry.npmjs.org/@google-cloud/pubsub/-/pubsub-3.0.1.tgz"
@@ -422,36 +427,31 @@
     lodash.snakecase "^4.1.1"
     p-defer "^3.0.0"
 
-"@google-cloud/storage@^5.18.3":
-  version "5.19.3"
-  resolved "https://registry.npmjs.org/@google-cloud/storage/-/storage-5.19.3.tgz"
-  integrity sha512-l+8X0BoA7rg9jyZaS4p2DwMg1Ivju+VAL6PeQZE1u2q52LQ0KemrZmdQWhtrplHYo8UdYtqpbj4A6Fc5fKDZdg==
+"@google-cloud/storage@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-6.1.0.tgz#f882a969c5637ff445764d7b172f68fd0d9e63f8"
+  integrity sha512-zqZwzpRWCJuPne7x9Vc2H79zANl0uh9bNPGis0xAuC88ZEvBXfQqYCAVyiL1YIxi7rf51l8wy9vBr1pONMfxxA==
   dependencies:
     "@google-cloud/paginator" "^3.0.7"
     "@google-cloud/projectify" "^2.0.0"
-    "@google-cloud/promisify" "^2.0.0"
+    "@google-cloud/promisify" "^3.0.0"
     abort-controller "^3.0.0"
     arrify "^2.0.0"
     async-retry "^1.3.3"
     compressible "^2.0.12"
-    configstore "^5.0.0"
-    date-and-time "^2.0.0"
     duplexify "^4.0.0"
     ent "^2.2.0"
     extend "^3.0.2"
-    gaxios "^4.0.0"
-    get-stream "^6.0.0"
-    google-auth-library "^7.14.1"
-    hash-stream-validation "^0.2.2"
+    gaxios "^5.0.0"
+    google-auth-library "^8.0.1"
     mime "^3.0.0"
     mime-types "^2.0.8"
     p-limit "^3.0.1"
     pumpify "^2.0.0"
-    retry-request "^4.2.2"
-    snakeize "^0.1.0"
+    retry-request "^5.0.0"
     stream-events "^1.0.4"
-    teeny-request "^7.1.3"
-    xdg-basedir "^4.0.0"
+    teeny-request "^8.0.0"
+    uuid "^8.0.0"
 
 "@grpc/grpc-js@~1.3.0":
   version "1.3.2"
@@ -1593,7 +1593,7 @@ concat-map@0.0.1:
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-configstore@^5.0.0, configstore@^5.0.1:
+configstore@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/configstore/-/configstore-5.0.1.tgz"
   integrity sha512-aMKprgk5YhBNyH25hj8wGt2+D52Sw1DRRIzqBwLp2Ya9mFmY8KPvvtvmna8SxVR9JMZ4kzMD68N22vlaRpkeFA==
@@ -1735,11 +1735,6 @@ data-uri-to-buffer@3:
   version "3.0.1"
   resolved "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-3.0.1.tgz"
   integrity sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==
-
-date-and-time@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/date-and-time/-/date-and-time-2.0.1.tgz"
-  integrity sha512-O7Xe5dLaqvY/aF/MFWArsAM1J4j7w1CSZlPCX9uHgmb+6SbkPd8Q4YOvfvH/cZGvFlJFfHOZKxQtmMUOoZhc/w==
 
 debug@2.6.9:
   version "2.6.9"
@@ -2362,10 +2357,10 @@ finalhandler@1.1.2, finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-firebase-admin@10.3.0:
-  version "10.3.0"
-  resolved "https://registry.npmjs.org/firebase-admin/-/firebase-admin-10.3.0.tgz"
-  integrity sha512-A0wgMLEjyVyUE+heyMJYqHRkPVjpebhOYsa47RHdrTM4ltApcx8Tn86sUmjqxlfh09gNnILAm7a8q5+FmgBYpg==
+firebase-admin@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/firebase-admin/-/firebase-admin-11.0.0.tgz#b10355cd9b142cf305fcb7842b51f918d3745a11"
+  integrity sha512-x56u+Q1P8QDvQKaYRe29ZUM/3f829cP8tsKCDXOhaIX/GbGfgcdjRhPmCafzlwgCWP5wW9NkOgIhnrw94zucvw==
   dependencies:
     "@fastify/busboy" "^1.1.0"
     "@firebase/database-compat" "^0.2.0"
@@ -2376,8 +2371,8 @@ firebase-admin@10.3.0:
     node-forge "^1.3.1"
     uuid "^8.3.2"
   optionalDependencies:
-    "@google-cloud/firestore" "^4.15.1"
-    "@google-cloud/storage" "^5.18.3"
+    "@google-cloud/firestore" "^5.0.2"
+    "@google-cloud/storage" "^6.1.0"
 
 firebase-frameworks@^0.4.2:
   version "0.4.2"
@@ -2657,11 +2652,6 @@ get-stream@^5.1.0:
   dependencies:
     pump "^3.0.0"
 
-get-stream@^6.0.0:
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/get-stream/-/get-stream-6.0.1.tgz"
-  integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
-
 get-uri@3:
   version "3.0.2"
   resolved "https://registry.npmjs.org/get-uri/-/get-uri-3.0.2.tgz"
@@ -2759,7 +2749,7 @@ globals@^13.15.0:
   dependencies:
     type-fest "^0.20.2"
 
-google-auth-library@^7.11.0, google-auth-library@^7.14.1, google-auth-library@^7.6.1:
+google-auth-library@^7.11.0, google-auth-library@^7.6.1:
   version "7.14.1"
   resolved "https://registry.npmjs.org/google-auth-library/-/google-auth-library-7.14.1.tgz"
   integrity sha512-5Rk7iLNDFhFeBYc3s8l1CqzbEBcdhwR193RlD4vSNFajIcINKI8W8P0JLmBpwymHqqWbX34pJDQu39cSy/6RsA==
@@ -2774,9 +2764,9 @@ google-auth-library@^7.11.0, google-auth-library@^7.14.1, google-auth-library@^7
     jws "^4.0.0"
     lru-cache "^6.0.0"
 
-google-auth-library@^8.0.2:
+google-auth-library@^8.0.1, google-auth-library@^8.0.2:
   version "8.0.2"
-  resolved "https://registry.npmjs.org/google-auth-library/-/google-auth-library-8.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-8.0.2.tgz#5fa0f2d3795c3e4019d2bb315ade4454cc9c30b5"
   integrity sha512-HoG+nWFAThLovKpvcbYzxgn+nBJPTfAwtq0GxPN821nOO+21+8oP7MoEHfd1sbDulUFFGfcjJr2CnJ4YssHcyg==
   dependencies:
     arrify "^2.0.0"
@@ -2925,11 +2915,6 @@ has-yarn@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/has-yarn/-/has-yarn-2.1.0.tgz"
   integrity sha512-UqBRqi4ju7T+TqGNdqAO0PaSVGsDGJUBQvk9eUWNGRY1CFGDzYhLWoM7JQEemnlvVcv/YEmc2wNW8BC24EnUsw==
-
-hash-stream-validation@^0.2.2:
-  version "0.2.4"
-  resolved "https://registry.npmjs.org/hash-stream-validation/-/hash-stream-validation-0.2.4.tgz"
-  integrity sha512-Gjzu0Xn7IagXVkSu9cSFuK1fqzwtLwFhNhVL8IFJijRNMgUttFbBSIAzKuSIrsFMO1+g1RlsoN49zPIbwPDMGQ==
 
 http-cache-semantics@^4.0.0, http-cache-semantics@^4.1.0:
   version "4.1.0"
@@ -4614,7 +4599,7 @@ restore-cursor@^3.1.0:
     onetime "^5.1.0"
     signal-exit "^3.0.2"
 
-retry-request@^4.0.0, retry-request@^4.2.2:
+retry-request@^4.0.0:
   version "4.2.2"
   resolved "https://registry.npmjs.org/retry-request/-/retry-request-4.2.2.tgz"
   integrity sha512-xA93uxUD/rogV7BV59agW/JHPGXeREMWiZc9jhcwY4YdZ7QOtC7qbomYg0n4wyk2lJhggjvKvhNX8wln/Aldhg==
@@ -4814,11 +4799,6 @@ smart-buffer@^4.1.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz"
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
-
-snakeize@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/snakeize/-/snakeize-0.1.0.tgz"
-  integrity sha1-EMCI2LWOsHazIpu1oE4jLOEmQi0=
 
 socks-proxy-agent@5, socks-proxy-agent@^5.0.0:
   version "5.0.1"
@@ -5065,10 +5045,10 @@ tcp-port-used@^1.0.2:
     debug "4.3.1"
     is2 "^2.0.6"
 
-teeny-request@^7.1.3:
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/teeny-request/-/teeny-request-7.2.0.tgz"
-  integrity sha512-SyY0pek1zWsi0LRVAALem+avzMLc33MKW/JLLakdP4s9+D7+jHcy5x6P+h94g2QNZsAqQNfX5lsbd3WSeJXrrw==
+teeny-request@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/teeny-request/-/teeny-request-8.0.0.tgz#9614410ba70114fd28ba7bf5077dce3e2f02adf7"
+  integrity sha512-6KEYxXI4lQPSDkXzXpPmJPNmo7oqduFFbhOEHf8sfsLbXyCsb+umUjBtMGAKhaSToD8JNCtQutTRefu29K64JA==
   dependencies:
     http-proxy-agent "^5.0.0"
     https-proxy-agent "^5.0.0"
