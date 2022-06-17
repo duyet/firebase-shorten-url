@@ -18,7 +18,7 @@
     "@babel/core": "7.18.5",
     "@babel/eslint-parser": "7.18.2",
     "@babel/preset-react": "7.17.12",
-    "eslint": "8.17.0",
+    "eslint": "8.18.0",
     "eslint-plugin-promise": "6.0.0",
     "firebase-tools": "11.1.0"
   },
