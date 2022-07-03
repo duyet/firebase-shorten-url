@@ -3285,10 +3285,10 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@4.21.4:
-  version "4.21.4"
-  resolved "https://registry.npmjs.org/antd/-/antd-4.21.4.tgz"
-  integrity sha512-seSXyzVwfOI0a9/HIxUQ41nVJpR8hHn+DbBlJTCOM92Q56Fvw0FlbtZuNMA2gaOkDzyPTnp4W7adlbaqkGsvog==
+antd@4.21.5:
+  version "4.21.5"
+  resolved "https://registry.npmjs.org/antd/-/antd-4.21.5.tgz"
+  integrity sha512-S6L29rmbiQvE4/kn1hPBscHFZ405Pbtuw3DCpXVnMt409JtY6sDaUbUcWfl4i21XkABEogKzqxjYVGogf1QIWQ==
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.7.0"
