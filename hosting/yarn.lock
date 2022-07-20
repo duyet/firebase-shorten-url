@@ -1137,7 +1137,7 @@
   resolved "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.2.tgz"
   integrity sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw==
 
-"@gatsbyjs/parcel-namer-relative-to-cwd@^1.4.0":
+"@gatsbyjs/parcel-namer-relative-to-cwd@1.4.0":
   version "1.4.0"
   resolved "https://registry.npmjs.org/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-1.4.0.tgz"
   integrity sha512-oXhiaPtYTGYqGZlazYRUabWVHWx5z6sAyBVLhUnpsKcBsK815cET+mjeWDKpmvJmFTKHC72Bvy1WIEnW3++YxA==
@@ -7196,12 +7196,12 @@ gatsby-page-utils@^2.19.0:
     lodash "^4.17.21"
     micromatch "^4.0.5"
 
-gatsby-parcel-config@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/gatsby-parcel-config/-/gatsby-parcel-config-0.10.0.tgz"
-  integrity sha512-FV+ccSeWPgicWRtycfUV1L7xyVIr6OSDnUkztnxq3Xj+OEBPC0NO2x07CA4tz16hSRDH1/qXgwY8AsHyenCidg==
+gatsby-parcel-config@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/gatsby-parcel-config/-/gatsby-parcel-config-0.10.1.tgz"
+  integrity sha512-KY/HgjOKY6LmG78zLATzz/xOMezPfyGeYpwg7YwmCJq+uIEZXlsSFku4uPbFSn9TM7fHNNjojqlPqAwoGjpn7A==
   dependencies:
-    "@gatsbyjs/parcel-namer-relative-to-cwd" "^1.4.0"
+    "@gatsbyjs/parcel-namer-relative-to-cwd" "1.4.0"
     "@parcel/bundler-default" "2.6.2"
     "@parcel/compressor-raw" "2.6.2"
     "@parcel/namer-default" "2.6.2"
@@ -7410,10 +7410,10 @@ gatsby-worker@^1.19.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@4.19.0:
-  version "4.19.0"
-  resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.19.0.tgz"
-  integrity sha512-Bhga6PbDRSL3J7yIcVAWwN76cK0OeFWE4f5ggh4qEjnsL20kxW+LPwAexpZ5dVxbE1gsl1k/VDSX66Wj3vGH3A==
+gatsby@4.19.1:
+  version "4.19.1"
+  resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.19.1.tgz"
+  integrity sha512-/QXVb31h8avikM4UW0l4xFLlK+nvFeKmMiNXOcGCZV9KbAjLisSdWkUxi8lWbhset8pKT3bZwelsRiHz8kQKLA==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -7498,7 +7498,7 @@ gatsby@4.19.0:
     gatsby-legacy-polyfills "^2.19.0"
     gatsby-link "^4.19.0"
     gatsby-page-utils "^2.19.0"
-    gatsby-parcel-config "^0.10.0"
+    gatsby-parcel-config "^0.10.1"
     gatsby-plugin-page-creator "^4.19.0"
     gatsby-plugin-typescript "^4.19.0"
     gatsby-plugin-utils "^3.13.0"
