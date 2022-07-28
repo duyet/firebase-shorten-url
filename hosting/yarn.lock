@@ -3322,10 +3322,10 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@4.22.1:
-  version "4.22.1"
-  resolved "https://registry.npmjs.org/antd/-/antd-4.22.1.tgz"
-  integrity sha512-DmIMwoC4g7n1Z7z2fPSQkcXSZHzO7uWqVen/9N3SaqGjkqyj8ho0PnZNf/mut4+yhhuIBQ+Xg25yDPy5KFGZvg==
+antd@4.22.2:
+  version "4.22.2"
+  resolved "https://registry.npmjs.org/antd/-/antd-4.22.2.tgz"
+  integrity sha512-3zyJ0Z9LaloCII0OLv7GUjKvigrmj44whPrNqrbLhcdc2O2oJNGtlPUf5bkrn98RIZSQ+EjXOuTlUSRbDjvLJA==
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.7.0"
@@ -3341,7 +3341,7 @@ antd@4.22.1:
     rc-checkbox "~2.3.0"
     rc-collapse "~3.3.0"
     rc-dialog "~8.9.0"
-    rc-drawer "~5.0.0-alpha.8"
+    rc-drawer "~5.1.0-alpha.1"
     rc-dropdown "~4.0.0"
     rc-field-form "~1.27.0"
     rc-image "~5.7.0"
@@ -11712,10 +11712,10 @@ rc-dialog@~8.9.0:
     rc-motion "^2.3.0"
     rc-util "^5.21.0"
 
-rc-drawer@~5.0.0-alpha.8:
-  version "5.0.0-alpha.8"
-  resolved "https://registry.npmjs.org/rc-drawer/-/rc-drawer-5.0.0-alpha.8.tgz"
-  integrity sha512-4ZhW8iZ7PDAnTRzprZv3zI8XEW/jQJkf+gvfnXXpx7Ik4TjKqzlf1yg33qEUm7uJgO1BQVITKGzlLUQlTSfrcQ==
+rc-drawer@~5.1.0-alpha.1:
+  version "5.1.0-alpha.2"
+  resolved "https://registry.npmjs.org/rc-drawer/-/rc-drawer-5.1.0-alpha.2.tgz"
+  integrity sha512-tDT2WG9j4zLUL1kw7BJ1u+cCDypqgonwVO3OwIzksyqeqeLKWRJCwRSxwLYDsuVeCoXFndCGZ7qmRUG83z6mOQ==
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.6"
