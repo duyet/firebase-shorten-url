@@ -2572,6 +2572,11 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
+"@testing-library/user-event@^14.4.2":
+  version "14.4.3"
+  resolved "https://registry.npmjs.org/@testing-library/user-event/-/user-event-14.4.3.tgz"
+  integrity sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==
+
 "@tokenizer/token@^0.3.0":
   version "0.3.0"
   resolved "https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz"
@@ -3327,16 +3332,17 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@4.22.4:
-  version "4.22.4"
-  resolved "https://registry.npmjs.org/antd/-/antd-4.22.4.tgz"
-  integrity sha512-u7l68PhSJMxyZmCNw+jwaeurSAaE+bU+lB0SPRHLfOFJR6xRudntvRoQdiEFOD5FZ3eeqz4lYQ3RZZRIarmceg==
+antd@4.22.5:
+  version "4.22.5"
+  resolved "https://registry.npmjs.org/antd/-/antd-4.22.5.tgz"
+  integrity sha512-+qIEyzsenM9bllZHfE6ueZbI9EWulCIWeQhUeiIC6p8J2+M8w2tG2t6anbxxsOb5FnmML60ipVLL/rbm+oFKyw==
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.7.0"
     "@ant-design/react-slick" "~0.29.1"
     "@babel/runtime" "^7.18.3"
     "@ctrl/tinycolor" "^3.4.0"
+    "@testing-library/user-event" "^14.4.2"
     classnames "^2.2.6"
     copy-to-clipboard "^3.2.0"
     lodash "^4.17.21"
@@ -3346,7 +3352,7 @@ antd@4.22.4:
     rc-checkbox "~2.3.0"
     rc-collapse "~3.3.0"
     rc-dialog "~8.9.0"
-    rc-drawer "~5.1.0-alpha.1"
+    rc-drawer "~5.1.0"
     rc-dropdown "~4.0.0"
     rc-field-form "~1.27.0"
     rc-image "~5.7.0"
@@ -11715,10 +11721,10 @@ rc-dialog@~8.9.0:
     rc-motion "^2.3.0"
     rc-util "^5.21.0"
 
-rc-drawer@~5.1.0-alpha.1:
-  version "5.1.0-alpha.2"
-  resolved "https://registry.npmjs.org/rc-drawer/-/rc-drawer-5.1.0-alpha.2.tgz"
-  integrity sha512-tDT2WG9j4zLUL1kw7BJ1u+cCDypqgonwVO3OwIzksyqeqeLKWRJCwRSxwLYDsuVeCoXFndCGZ7qmRUG83z6mOQ==
+rc-drawer@~5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npmjs.org/rc-drawer/-/rc-drawer-5.1.0.tgz"
+  integrity sha512-pU3Tsn99pxGdYowXehzZbdDVE+4lDXSGb7p8vA9mSmr569oc2Izh4Zw5vLKSe/Xxn2p5MSNbLVqD4tz+pK6SOw==
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.6"
