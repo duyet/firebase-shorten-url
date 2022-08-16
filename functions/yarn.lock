@@ -2365,10 +2365,10 @@ firebase-functions@3.22.0:
     lodash "^4.17.14"
     node-fetch "^2.6.7"
 
-firebase-tools@11.6.0:
-  version "11.6.0"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-11.6.0.tgz"
-  integrity sha512-uVZN2I+xsNdPnxNZ4PCSyGNKQJ7YzDZFcXD4Xpxa9ecIqbeK7/a80fQZ4PnoXmOjlDJrJIDtCFGq3UqGYUL33Q==
+firebase-tools@11.7.0:
+  version "11.7.0"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-11.7.0.tgz"
+  integrity sha512-im3oCXpxcUWqflVbBTi8bEtRHdpQqyuwsninGqvLCzY87wwkI6IR3pT4gv/xUAkA4xU4xmQQDnLlQ5XoxA4OlA==
   dependencies:
     "@google-cloud/pubsub" "^3.0.1"
     abort-controller "^3.0.0"
@@ -2394,6 +2394,7 @@ firebase-tools@11.6.0:
     fs-extra "^10.1.0"
     glob "^7.1.2"
     google-auth-library "^7.11.0"
+    googleapis "^105.0.0"
     inquirer "^8.2.0"
     js-yaml "^3.13.1"
     jsonwebtoken "^8.5.1"
@@ -2816,6 +2817,26 @@ google-p12-pem@^3.1.3:
   integrity sha512-HHuHmkLgwjdmVRngf5+gSmpkyaRI6QmOg77J8tkNBHhNEI62sGHyw4/+UkgyZEI7h84NbWprXDJ+sa3xOYFvTg==
   dependencies:
     node-forge "^1.3.1"
+
+googleapis-common@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/googleapis-common/-/googleapis-common-6.0.0.tgz"
+  integrity sha512-ieZouiuoyTHCckOgu7NU+n5UvA8kAzGTRRMQD+3bobCX9npnRvYDmTHZjM5lQLzf0cGz1xQ1ABCxGQ+xSsMkCw==
+  dependencies:
+    extend "^3.0.2"
+    gaxios "^4.0.0"
+    google-auth-library "^8.0.2"
+    qs "^6.7.0"
+    url-template "^2.0.8"
+    uuid "^8.0.0"
+
+googleapis@^105.0.0:
+  version "105.0.0"
+  resolved "https://registry.npmjs.org/googleapis/-/googleapis-105.0.0.tgz"
+  integrity sha512-wH/jU/6QpqwsjTKj4vfKZz97ne7xT7BBbKwzQEwnbsG8iH9Seyw19P+AuLJcxNNrmgblwLqfr3LORg4Okat1BQ==
+  dependencies:
+    google-auth-library "^8.0.2"
+    googleapis-common "^6.0.0"
 
 got@^9.6.0:
   version "9.6.0"
@@ -4387,7 +4408,7 @@ pupa@^2.0.1, pupa@^2.1.1:
   dependencies:
     escape-goat "^2.0.0"
 
-qs@6.7.0, qs@^6.6.0:
+qs@6.7.0, qs@^6.6.0, qs@^6.7.0:
   version "6.7.0"
   resolved "https://registry.npmjs.org/qs/-/qs-6.7.0.tgz"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
@@ -5323,6 +5344,11 @@ url-parse-lax@^3.0.0:
   integrity sha1-FrXK/Afb42dsGxmZF3gj1lA6yww=
   dependencies:
     prepend-http "^2.0.0"
+
+url-template@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.npmjs.org/url-template/-/url-template-2.0.8.tgz"
+  integrity sha512-XdVKMF4SJ0nP/O7XIPB0JwAEuT9lDIYnNsK8yGVe43y0AWoKeJNdv3ZNWh7ksJ6KqQFjOO6ox/VEitLnaVNufw==
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
