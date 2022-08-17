@@ -2572,11 +2572,6 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@testing-library/user-event@^14.4.2":
-  version "14.4.3"
-  resolved "https://registry.npmjs.org/@testing-library/user-event/-/user-event-14.4.3.tgz"
-  integrity sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==
-
 "@tokenizer/token@^0.3.0":
   version "0.3.0"
   resolved "https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz"
@@ -3327,17 +3322,16 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@4.22.5:
-  version "4.22.5"
-  resolved "https://registry.npmjs.org/antd/-/antd-4.22.5.tgz"
-  integrity sha512-+qIEyzsenM9bllZHfE6ueZbI9EWulCIWeQhUeiIC6p8J2+M8w2tG2t6anbxxsOb5FnmML60ipVLL/rbm+oFKyw==
+antd@4.22.6:
+  version "4.22.6"
+  resolved "https://registry.npmjs.org/antd/-/antd-4.22.6.tgz"
+  integrity sha512-cyGq4CFrKcHISkyvXHODqhV8X0W7r6GHP37H/KvvmYibz/1sdts3Sa0FoAPy/c165TjAcSC/ZHxJhuGbo42zvA==
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.7.0"
     "@ant-design/react-slick" "~0.29.1"
     "@babel/runtime" "^7.18.3"
     "@ctrl/tinycolor" "^3.4.0"
-    "@testing-library/user-event" "^14.4.2"
     classnames "^2.2.6"
     copy-to-clipboard "^3.2.0"
     lodash "^4.17.21"
@@ -3354,7 +3348,7 @@ antd@4.22.5:
     rc-input "~0.0.1-alpha.5"
     rc-input-number "~7.3.5"
     rc-mentions "~1.9.1"
-    rc-menu "~9.6.0"
+    rc-menu "~9.6.3"
     rc-motion "^2.6.1"
     rc-notification "~4.6.0"
     rc-pagination "~3.1.17"
@@ -11745,10 +11739,10 @@ rc-mentions@~1.9.1:
     rc-trigger "^5.0.4"
     rc-util "^5.22.5"
 
-rc-menu@~9.6.0:
-  version "9.6.0"
-  resolved "https://registry.npmjs.org/rc-menu/-/rc-menu-9.6.0.tgz"
-  integrity sha512-d26waws42U/rVwW/+rOE2FN9pX6wUc9bDy38vVQYoie6gE85auWIpl5oChGlnW6nE2epnTwUsgWl8ipOPgmnUA==
+rc-menu@~9.6.0, rc-menu@~9.6.3:
+  version "9.6.3"
+  resolved "https://registry.npmjs.org/rc-menu/-/rc-menu-9.6.3.tgz"
+  integrity sha512-KY9QilKWgkJZ0JSpOBgIpQF2wMRRodRxpIMYyIJ3Nd5N6xfVLOxXCxevHcBplt+Ez7MhUF+I03MuAKqWQJLZgw==
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"
