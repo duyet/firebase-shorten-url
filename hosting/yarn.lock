@@ -17,10 +17,10 @@
   dependencies:
     "@ctrl/tinycolor" "^3.4.0"
 
-"@ant-design/compatible@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/@ant-design/compatible/-/compatible-5.0.0.tgz"
-  integrity sha512-U7rQeOWHuaKQP/zpcfpr2+tAa+R9DTzIjlvtpQhE3AHX+ep0fnC0clBjb8yFrHndCiEh8jvQpidsCYN+qfTdFQ==
+"@ant-design/compatible@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/@ant-design/compatible/-/compatible-5.0.1.tgz"
+  integrity sha512-anR8AnFwof81IJSP10yXzYqIm0VO2R0zNBtILj+au9lXVuwiy1SKX3+o0wU+1vfxOvO+j4g3xQiHM1qx1/KZoQ==
   dependencies:
     classnames "^2.2.6"
     dayjs "^1.11.4"
