@@ -2940,10 +2940,10 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@5.0.4:
-  version "5.0.4"
-  resolved "https://registry.npmjs.org/antd/-/antd-5.0.4.tgz"
-  integrity sha512-SbMmMTpenY8OfNABJl9/xEGhLP+2mQBbFxelT8ySFb7BR6KwsaVbz6BJOaBWmHBwNq86gXQWJtouQ9Znb6p0RA==
+antd@5.0.5:
+  version "5.0.5"
+  resolved "https://registry.npmjs.org/antd/-/antd-5.0.5.tgz"
+  integrity sha512-8jWUjZ65urNHZPg9/Ywa9V0PlNfqjhewKgSPF4nraN9X5v434lDJkRBQGN7meNixQ6aM2B/JhXPm9UaJ/tAQmA==
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/cssinjs" "^1.0.0"
@@ -2981,7 +2981,7 @@ antd@5.0.4:
     rc-steps "~6.0.0-alpha.2"
     rc-switch "~4.0.0"
     rc-table "~7.26.0"
-    rc-tabs "~12.4.1"
+    rc-tabs "~12.4.2"
     rc-textarea "~0.4.5"
     rc-tooltip "~5.2.0"
     rc-tree "~5.7.0"
@@ -2989,7 +2989,7 @@ antd@5.0.4:
     rc-trigger "^5.2.10"
     rc-upload "~4.3.0"
     rc-util "^5.25.2"
-    scroll-into-view-if-needed "^2.2.25"
+    scroll-into-view-if-needed "^3.0.3"
     shallowequal "^1.1.0"
 
 anymatch@~3.1.2:
@@ -4348,10 +4348,10 @@ compression@^1.7.0, compression@^1.7.4:
     safe-buffer "5.1.2"
     vary "~1.1.2"
 
-compute-scroll-into-view@^1.0.16:
-  version "1.0.16"
-  resolved "https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-1.0.16.tgz"
-  integrity sha512-a85LHKY81oQnikatZYA90pufpZ6sQx++BoCxOEMsjpZx+ZnaKGQnCyCehTRr/1p9GBIAHTjcU9k71kSYWloLiQ==
+compute-scroll-into-view@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-2.0.2.tgz"
+  integrity sha512-W+4Iti92hktsTtNPNeRM1vE0JdqCBk5qIabRafpr5pGrQhQ+xzCv0NGnFzTCKmW4yGLm9Aovbw8YNxloe2z9tQ==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -11208,10 +11208,10 @@ rc-table@~7.26.0:
     rc-util "^5.22.5"
     shallowequal "^1.1.0"
 
-rc-tabs@~12.4.1:
-  version "12.4.1"
-  resolved "https://registry.npmjs.org/rc-tabs/-/rc-tabs-12.4.1.tgz"
-  integrity sha512-yViBZypldDnPffk3IPTarplF1RAv8VQDDnOt9sHDU7pjCnqE72csCU+7kjbLPtPpYniIMQJYyWxh/lsBUcagSA==
+rc-tabs@~12.4.2:
+  version "12.4.2"
+  resolved "https://registry.npmjs.org/rc-tabs/-/rc-tabs-12.4.2.tgz"
+  integrity sha512-FFlGwuTjQUznWzJtyhmHc6KAp5lRQFxKUv9Aj1UtsOYe2e7WGmuzcrd+/LQchuPe0VjhaZPdGkmFGcqGqNO6ow==
   dependencies:
     "@babel/runtime" "^7.11.2"
     classnames "2.x"
@@ -11943,12 +11943,12 @@ schema-utils@^3.0.0, schema-utils@^3.1.0, schema-utils@^3.1.1:
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
-scroll-into-view-if-needed@^2.2.25:
-  version "2.2.26"
-  resolved "https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-2.2.26.tgz"
-  integrity sha512-SQ6AOKfABaSchokAmmaxVnL9IArxEnLEX9j4wAZw+x4iUTb40q7irtHG3z4GtAWz5veVZcCnubXDBRyLVQaohw==
+scroll-into-view-if-needed@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.0.3.tgz"
+  integrity sha512-QoCH0lVw0tbA7Rl6sToH7e1tO3n95Oi6JgBgC8hEpNNZUC91MfasJ/4E1ZdbzGueNDZ+Y7ObfRaelKUgTyPbJA==
   dependencies:
-    compute-scroll-into-view "^1.0.16"
+    compute-scroll-into-view "^2.0.2"
 
 semver-diff@^3.1.1:
   version "3.1.1"
