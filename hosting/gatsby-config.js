@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingIds: ['UA-92451506-6'],
+        trackingIds: ['UA-92451506-6', 'G-CJ02NZETG0'],
         pluginConfig: {
           head: true,
         },
