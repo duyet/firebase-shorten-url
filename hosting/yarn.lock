@@ -6597,7 +6597,7 @@ gatsby-page-utils@^3.8.0:
     lodash "^4.17.21"
     micromatch "^4.0.5"
 
-gatsby-parcel-config@^1.8.0:
+gatsby-parcel-config@1.8.0:
   version "1.8.0"
   resolved "https://registry.npmjs.org/gatsby-parcel-config/-/gatsby-parcel-config-1.8.0.tgz"
   integrity sha512-LuTjSuVLl+UIYD1i8VZXymgkIzdH7CB9NYvzxbDGrVCQxAIQwkfjmaLkL6pc1cuJU6kw6w0tbY1uraZDOh1hkQ==
@@ -6672,10 +6672,10 @@ gatsby-plugin-react-helmet@6.8.0:
   dependencies:
     "@babel/runtime" "^7.20.13"
 
-gatsby-plugin-sharp@5.8.0:
-  version "5.8.0"
-  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-5.8.0.tgz"
-  integrity sha512-cOhSEShJI8La2z3GXaOxPEWLRZraupQGOAYXtSO1fIfyB2NSITv5XWjsPutCjIX6fRyPRqb9LsvArDo7B9DG1A==
+gatsby-plugin-sharp@5.8.1:
+  version "5.8.1"
+  resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-5.8.1.tgz"
+  integrity sha512-HPRINGFWjBahYW0lMzo68sKYKArUXKl0yqhCtzsK51Km/R8Mpw+uL+7q4r/sQJ8VQ8HZUNH+ik+2rbzR1nKe2Q==
   dependencies:
     "@babel/runtime" "^7.20.13"
     async "^3.2.4"
@@ -6796,10 +6796,10 @@ gatsby-worker@^2.8.0:
     fs-extra "^11.1.0"
     signal-exit "^3.0.7"
 
-gatsby@5.8.0:
-  version "5.8.0"
-  resolved "https://registry.npmjs.org/gatsby/-/gatsby-5.8.0.tgz"
-  integrity sha512-d7sNcoKHFu7ghwUrUuMVHVMn+S0fY6IOoBo9KuvjdUwBY6ZtW9tvGfcZ4hn4lqkAPwLcWY8ocKNMu/itonWRlw==
+gatsby@5.8.1:
+  version "5.8.1"
+  resolved "https://registry.npmjs.org/gatsby/-/gatsby-5.8.1.tgz"
+  integrity sha512-TGQxNsw2saAR6jCsvdawrrJNbIlB1HbNafXyG0cD7e2TL8siI1TwmG+R2L1g7TfvQ4Qs+szgT2cAaEcPvAKj3Q==
   dependencies:
     "@babel/code-frame" "^7.18.6"
     "@babel/core" "^7.20.12"
@@ -6887,7 +6887,7 @@ gatsby@5.8.0:
     gatsby-legacy-polyfills "^3.8.0"
     gatsby-link "^5.8.0"
     gatsby-page-utils "^3.8.0"
-    gatsby-parcel-config "^1.8.0"
+    gatsby-parcel-config "1.8.0"
     gatsby-plugin-page-creator "^5.8.0"
     gatsby-plugin-typescript "^5.8.0"
     gatsby-plugin-utils "^4.8.0"
