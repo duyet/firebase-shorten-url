@@ -35,10 +35,10 @@
   resolved "https://registry.npmjs.org/@ant-design/css-animation/-/css-animation-1.7.3.tgz"
   integrity sha512-LrX0OGZtW+W6iLnTAqnTaoIsRelYeuLZWsrmBJFUXDALQphPsN8cE5DCsmoSlL0QYb94BQxINiuS70Ar/8BNgA==
 
-"@ant-design/cssinjs@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.npmjs.org/@ant-design/cssinjs/-/cssinjs-1.9.0.tgz"
-  integrity sha512-rOHIVPfYDJL4ZMh4GXMlO4kQbE7tu5uXITTeuCdu0uyNIlKtYcVE67FMttYiLTBqlZHkILqaT4qxe2eE2Dxbyg==
+"@ant-design/cssinjs@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.npmjs.org/@ant-design/cssinjs/-/cssinjs-1.9.1.tgz"
+  integrity sha512-CZt1vCMs/sY7RoacYuIkZwQmb8Bhp99ReNNE9Y8lnUzik8fmCdKAQA7ecvVOFwmNFdcBHga7ye/XIRrsbkiqWw==
   dependencies:
     "@babel/runtime" "^7.11.1"
     "@emotion/hash" "^0.8.0"
@@ -3014,13 +3014,13 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@5.4.3:
-  version "5.4.3"
-  resolved "https://registry.npmjs.org/antd/-/antd-5.4.3.tgz"
-  integrity sha512-6o+WYoaazWSGP8YmPweMi3BEY2y3oMsPxJgQ0gkbhHhgJmCoz6AnyNqWwycEqaO/Yo7caLrm8BrZdMFYUkEjfQ==
+antd@5.4.4:
+  version "5.4.4"
+  resolved "https://registry.npmjs.org/antd/-/antd-5.4.4.tgz"
+  integrity sha512-+IJdra4lhqnsGHyOCyaoZkv3MMheHVORBKC57GzRYMld8Rbtymstosx5vSw7ARuY96REkg+enkJQR9qgxSysxA==
   dependencies:
     "@ant-design/colors" "^7.0.0"
-    "@ant-design/cssinjs" "^1.9.0"
+    "@ant-design/cssinjs" "^1.9.1"
     "@ant-design/icons" "^5.0.0"
     "@ant-design/react-slick" "~1.0.0"
     "@babel/runtime" "^7.18.3"
