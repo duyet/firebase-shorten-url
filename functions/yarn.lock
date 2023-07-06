@@ -2347,10 +2347,10 @@ firebase-functions@4.4.1:
     node-fetch "^2.6.7"
     protobufjs "^7.2.2"
 
-firebase-tools@12.4.2:
-  version "12.4.2"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-12.4.2.tgz"
-  integrity sha512-4oYbIq+htEi/sXRV1RN8Q/3r27+/VMcOw1G795KMEXgFluw9adWEegbobKyOMqN7VKF+M0jMeFUiGbWwlNUv8w==
+firebase-tools@12.4.3:
+  version "12.4.3"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-12.4.3.tgz"
+  integrity sha512-B/E4kV7bzpzT3nLgbU34ImZs1Z/RwdvQGjbvtJ1+Tvs28ml7tpdf2b6yJchZIsK9ALHNcOfYPGSbWoLRaykZAA==
   dependencies:
     "@google-cloud/pubsub" "^3.0.1"
     abort-controller "^3.0.0"
