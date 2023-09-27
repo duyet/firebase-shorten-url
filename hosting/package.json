@@ -19,7 +19,7 @@
     "@ant-design/compatible": "5.1.2",
     "antd": "5.9.3",
     "axios": "1.5.1",
-    "gatsby": "5.12.4",
+    "gatsby": "5.12.5",
     "gatsby-image": "3.11.0",
     "gatsby-plugin-google-gtag": "5.12.0",
     "gatsby-plugin-manifest": "5.12.0",
