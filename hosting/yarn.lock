@@ -3168,10 +3168,10 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@5.11.3:
-  version "5.11.3"
-  resolved "https://registry.npmjs.org/antd/-/antd-5.11.3.tgz"
-  integrity sha512-+aXlytJCsp8Thag+MAMCDsDciwTl7w3bexHiojGgFOaSJPuIktN5yrLb9GCLar3fkTyGVAaxnkJm4JLGbAz3Xg==
+antd@5.11.4:
+  version "5.11.4"
+  resolved "https://registry.npmjs.org/antd/-/antd-5.11.4.tgz"
+  integrity sha512-FuaV/viyZiMlCL1JzdQpSlzPcWcBlGYDAbtj3FM4BgwAso+ge3d4tXkZZG4yZkktUoLvWrcaJObs3Nk32Oiwuw==
   dependencies:
     "@ant-design/colors" "^7.0.0"
     "@ant-design/cssinjs" "^1.17.5"
@@ -3194,7 +3194,7 @@ antd@5.11.3:
     rc-drawer "~6.5.2"
     rc-dropdown "~4.1.0"
     rc-field-form "~1.40.0"
-    rc-image "~7.5.0"
+    rc-image "~7.5.1"
     rc-input "~1.3.6"
     rc-input-number "~8.4.0"
     rc-mentions "~2.9.1"
@@ -10958,10 +10958,10 @@ rc-form@^2.4.12:
     react-is "^16.13.1"
     warning "^4.0.3"
 
-rc-image@~7.5.0:
-  version "7.5.0"
-  resolved "https://registry.npmjs.org/rc-image/-/rc-image-7.5.0.tgz"
-  integrity sha512-GVR/GX8MF/tC2nZ913heGCa/99FU4UkMjXXOj55gY8vF6yjPoZ21MusH2ZG2Y/mNMM1Cnkujp1kRdAzR7/KYTg==
+rc-image@~7.5.1:
+  version "7.5.1"
+  resolved "https://registry.npmjs.org/rc-image/-/rc-image-7.5.1.tgz"
+  integrity sha512-Z9loECh92SQp0nSipc0MBuf5+yVC05H/pzC+Nf8xw1BKDFUJzUeehYBjaWlxly8VGBZJcTHYri61Fz9ng1G3Ag==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@rc-component/portal" "^1.0.2"
