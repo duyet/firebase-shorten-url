@@ -15,12 +15,12 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@ant-design/colors@^7.0.0", "@ant-design/colors@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.npmjs.org/@ant-design/colors/-/colors-7.0.1.tgz"
-  integrity sha512-SrZBQcrXNmrH8TJPXZReYcXs4jSqkwNS3EEhpN6esBI9sNX70g5LZP05/uSPjflkIt2orvjivQ/ywVBqTbHZ+A==
+"@ant-design/colors@^7.0.0", "@ant-design/colors@^7.0.2":
+  version "7.0.2"
+  resolved "https://registry.npmjs.org/@ant-design/colors/-/colors-7.0.2.tgz"
+  integrity sha512-7KJkhTiPiLHSu+LmMJnehfJ6242OCxSlR3xHVBecYxnMW8MS/878NXct1GqYARyL59fyeFdKRxXTfvR9SnDgJg==
   dependencies:
-    "@ctrl/tinycolor" "^4.0.2"
+    "@ctrl/tinycolor" "^3.6.1"
 
 "@ant-design/compatible@5.1.2":
   version "5.1.2"
@@ -1222,10 +1222,10 @@
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@ctrl/tinycolor@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-4.0.2.tgz"
-  integrity sha512-fKQinXE9pJ83J1n+C3rDl2xNLJwfoYNvXLRy5cYZA9hBJJw2q+sbb/AOSNKmLxnTWyNTmy4994dueSwP4opi5g==
+"@ctrl/tinycolor@^3.6.1":
+  version "3.6.1"
+  resolved "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-3.6.1.tgz"
+  integrity sha512-SITSV6aIXsuVNV3f3O0f2n/cgyEDWoSqtZMYiAmcsYHydcKrOz3gUxB/iXd/Qf08+IZX4KpgNbvUdMBmWz+kcA==
 
 "@emotion/hash@^0.8.0":
   version "0.8.0"
@@ -2316,13 +2316,13 @@
   resolved "https://registry.npmjs.org/@protobufjs/utf8/-/utf8-1.1.0.tgz"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@rc-component/color-picker@~1.5.0":
-  version "1.5.0"
-  resolved "https://registry.npmjs.org/@rc-component/color-picker/-/color-picker-1.5.0.tgz"
-  integrity sha512-sWZCV0VAJlSYfo8FwpHVK0UZUSECddYxkLUGjiYuc9cOVVB/+hYr0BJbgzSG21MWYad3Wl8O0qBwalBsK4J4Dg==
+"@rc-component/color-picker@~1.5.1":
+  version "1.5.1"
+  resolved "https://registry.npmjs.org/@rc-component/color-picker/-/color-picker-1.5.1.tgz"
+  integrity sha512-onyAFhWKXuG4P162xE+7IgaJkPkwM94XlOYnQuu69XdXWMfxpeFi6tpJBsieIMV7EnyLV5J3lDzdLiFeK0iEBA==
   dependencies:
     "@babel/runtime" "^7.23.6"
-    "@ctrl/tinycolor" "^4.0.2"
+    "@ctrl/tinycolor" "^3.6.1"
     classnames "^2.2.6"
     rc-util "^5.38.1"
 
@@ -3177,22 +3177,21 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@5.12.6:
-  version "5.12.6"
-  resolved "https://registry.npmjs.org/antd/-/antd-5.12.6.tgz"
-  integrity sha512-Fbv+99dONoR7gXpKfaUYKYMxLMx1WJfdwb/A7TW35oXrecn6O1HyiujJm5RdGDdHXkpBirKJ3+jTlD/Mm6Tmag==
+antd@5.12.7:
+  version "5.12.7"
+  resolved "https://registry.npmjs.org/antd/-/antd-5.12.7.tgz"
+  integrity sha512-+SnWLO0kwXFnP15PAzvczZG3/yGu1PoYJa1mcYajqi248gaFA6HjY0s/kXVyXEIzY8dO3MT+RenYweU+s47Fwg==
   dependencies:
-    "@ant-design/colors" "^7.0.1"
+    "@ant-design/colors" "^7.0.2"
     "@ant-design/cssinjs" "^1.18.2"
     "@ant-design/icons" "^5.2.6"
     "@ant-design/react-slick" "~1.0.2"
-    "@babel/runtime" "^7.23.6"
-    "@ctrl/tinycolor" "^4.0.2"
-    "@rc-component/color-picker" "~1.5.0"
+    "@ctrl/tinycolor" "^3.6.1"
+    "@rc-component/color-picker" "~1.5.1"
     "@rc-component/mutate-observer" "^1.1.0"
     "@rc-component/tour" "~1.11.1"
     "@rc-component/trigger" "^1.18.2"
-    classnames "^2.5.0"
+    classnames "^2.5.1"
     copy-to-clipboard "^3.3.3"
     dayjs "^1.11.10"
     qrcode.react "^3.1.0"
@@ -4215,7 +4214,7 @@ cjson@^0.3.1:
   dependencies:
     json-parse-helpfulerror "^1.0.3"
 
-classnames@2.x, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1, classnames@^2.3.2, classnames@^2.5.0:
+classnames@2.x, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1, classnames@^2.3.2, classnames@^2.5.1:
   version "2.5.1"
   resolved "https://registry.npmjs.org/classnames/-/classnames-2.5.1.tgz"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
