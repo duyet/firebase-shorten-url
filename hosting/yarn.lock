@@ -3177,10 +3177,10 @@ ansicolors@~0.3.2:
   resolved "https://registry.npmjs.org/ansicolors/-/ansicolors-0.3.2.tgz"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-antd@5.12.7:
-  version "5.12.7"
-  resolved "https://registry.npmjs.org/antd/-/antd-5.12.7.tgz"
-  integrity sha512-+SnWLO0kwXFnP15PAzvczZG3/yGu1PoYJa1mcYajqi248gaFA6HjY0s/kXVyXEIzY8dO3MT+RenYweU+s47Fwg==
+antd@5.12.8:
+  version "5.12.8"
+  resolved "https://registry.npmjs.org/antd/-/antd-5.12.8.tgz"
+  integrity sha512-R2CRcB+aaVZurb3J0IKpBRWq5kW4CLcSqDF58/QBsqYdzK7XjSvM8+eF3rWVRUDbSJfGmyW7I80ywNRYpW1+vA==
   dependencies:
     "@ant-design/colors" "^7.0.2"
     "@ant-design/cssinjs" "^1.18.2"
