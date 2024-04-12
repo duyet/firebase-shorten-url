@@ -2343,10 +2343,10 @@ firebase-functions@4.9.0:
     express "^4.17.1"
     protobufjs "^7.2.2"
 
-firebase-tools@13.7.1:
-  version "13.7.1"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.7.1.tgz"
-  integrity sha512-51kArldEyjpIqJfO/x4RBnWfj28OFkrVS8Gxqu+gcT4BGswU9sRDXtPqRTEGFLeh/ANxqxzVuHBhHpwYZeYU1A==
+firebase-tools@13.7.2:
+  version "13.7.2"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.7.2.tgz"
+  integrity sha512-sq1AZCOt/xjpP7FYNRXPEjSZtplAhEFd/LKqTaKsCtFo64h/ykEAYXHzAJCSl6J1EWh6tf0h1DYT2mIaW+d5cw==
   dependencies:
     "@google-cloud/pubsub" "^3.0.1"
     abort-controller "^3.0.0"
