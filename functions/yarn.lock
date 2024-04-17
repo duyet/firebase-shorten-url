@@ -2373,10 +2373,10 @@ firebase-functions@4.9.0:
     express "^4.17.1"
     protobufjs "^7.2.2"
 
-firebase-tools@13.7.2:
-  version "13.7.2"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.7.2.tgz"
-  integrity sha512-sq1AZCOt/xjpP7FYNRXPEjSZtplAhEFd/LKqTaKsCtFo64h/ykEAYXHzAJCSl6J1EWh6tf0h1DYT2mIaW+d5cw==
+firebase-tools@13.7.3:
+  version "13.7.3"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.7.3.tgz"
+  integrity sha512-3OkD5GX+KBZPDHOZc0TzgBwDFmCCwqhMFRbUAau+ExzsNbiIPHe6CxXSCiojqYzXGDvlW8kn/9HWMn7idOiQIQ==
   dependencies:
     "@google-cloud/pubsub" "^3.0.1"
     abort-controller "^3.0.0"
@@ -2406,7 +2406,6 @@ firebase-tools@13.7.2:
     google-auth-library "^7.11.0"
     inquirer "^8.2.6"
     inquirer-autocomplete-prompt "^2.0.1"
-    js-yaml "^3.13.1"
     jsonwebtoken "^9.0.0"
     leven "^3.1.0"
     libsodium-wrappers "^0.7.10"
@@ -2440,6 +2439,7 @@ firebase-tools@13.7.2:
     winston "^3.0.0"
     winston-transport "^4.4.0"
     ws "^7.2.3"
+    yaml "^2.4.1"
 
 flat-cache@^3.0.4:
   version "3.0.4"
@@ -5445,6 +5445,11 @@ yaml@^1.10.0:
   version "1.10.2"
   resolved "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
+
+yaml@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.4.1.tgz#2e57e0b5e995292c25c75d2658f0664765210eed"
+  integrity sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==
 
 yargs-parser@^21.1.1:
   version "21.1.1"
