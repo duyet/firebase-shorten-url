@@ -6380,10 +6380,10 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firebase-tools@13.7.3:
-  version "13.7.3"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.7.3.tgz"
-  integrity sha512-3OkD5GX+KBZPDHOZc0TzgBwDFmCCwqhMFRbUAau+ExzsNbiIPHe6CxXSCiojqYzXGDvlW8kn/9HWMn7idOiQIQ==
+firebase-tools@13.7.4:
+  version "13.7.4"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.7.4.tgz"
+  integrity sha512-qufTI+148n6pxHGzypIT8KO42GYUUlAS1+DaSOYW/fGrxtuLcDAX+SnUgGVsjjLAHujjHUfPU7g3g6F86g/3og==
   dependencies:
     "@google-cloud/pubsub" "^3.0.1"
     abort-controller "^3.0.0"
