@@ -29,9 +29,9 @@
     "gatsby-source-filesystem": "5.13.1",
     "gatsby-transformer-sharp": "5.13.1",
     "prop-types": "15.8.1",
-    "react": "18.2.0",
+    "react": "18.3.0",
     "react-copy-to-clipboard": "5.1.0",
-    "react-dom": "18.2.0",
+    "react-dom": "18.3.0",
     "react-helmet": "6.1.0"
   },
   "devDependencies": {
@@ -44,7 +44,7 @@
     "eslint-plugin-jest": "28.2.0",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-react": "7.34.1",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-hooks": "4.6.1",
     "firebase-tools": "13.7.4",
     "prettier": "3.2.5"
   },
