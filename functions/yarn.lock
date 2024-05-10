@@ -2407,10 +2407,10 @@ firebase-functions@5.0.1:
     express "^4.17.1"
     protobufjs "^7.2.2"
 
-firebase-tools@13.8.1:
-  version "13.8.1"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.8.1.tgz"
-  integrity sha512-DX6QhPh1A7ctNvrIP3zhu59YAu9AdzvUW7A9D2FkfjmS6XCmNct6tTGhMW0N3tcbPUvlnqZzzePFDy7+JUWsUQ==
+firebase-tools@13.8.2:
+  version "13.8.2"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.8.2.tgz"
+  integrity sha512-63g2mUzRZeumla26lTr2jmenLQ3g7im75ExfoXjLx1TwB1KlMqyoTk58jcGPde0Vz4ZFTAxNLihsbWhziNhQHw==
   dependencies:
     "@google-cloud/cloud-sql-connector" "^1.2.3"
     "@google-cloud/pubsub" "^3.0.1"
