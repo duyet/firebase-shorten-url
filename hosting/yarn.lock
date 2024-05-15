@@ -22,10 +22,10 @@
   dependencies:
     "@ctrl/tinycolor" "^3.6.1"
 
-"@ant-design/compatible@5.1.2":
-  version "5.1.2"
-  resolved "https://registry.npmjs.org/@ant-design/compatible/-/compatible-5.1.2.tgz"
-  integrity sha512-PcNV6hCrlx1JnKBjC148BjJNM3XLVSEER422SOk/HRVD8rm8ZovItlZrQOoO3WH5L4jqwj5gxQap2cqSnmQaTg==
+"@ant-design/compatible@5.1.3":
+  version "5.1.3"
+  resolved "https://registry.npmjs.org/@ant-design/compatible/-/compatible-5.1.3.tgz"
+  integrity sha512-uLvjwENnpY/1gxYb5m8L2k+WmBpBHqH45fO76+4J+WUDKTUKpmwbEW3OG/in2mSO2HI6h3Mcp57+tAMr18ZkgQ==
   dependencies:
     classnames "^2.2.6"
     dayjs "^1.11.4"
@@ -7176,9 +7176,9 @@ gaxios@^5.0.0:
     node-fetch "^2.6.7"
 
 gaxios@^6.0.0, gaxios@^6.0.3, gaxios@^6.1.1:
-  version "6.5.0"
-  resolved "https://registry.npmjs.org/gaxios/-/gaxios-6.5.0.tgz"
-  integrity sha512-R9QGdv8j4/dlNoQbX3hSaK/S0rkMijqjVvW3YM06CoBdbU/VdKd159j4hePpng0KuE6Lh6JJ7UdmVGJZFcAG1w==
+  version "6.6.0"
+  resolved "https://registry.npmjs.org/gaxios/-/gaxios-6.6.0.tgz"
+  integrity sha512-bpOZVQV5gthH/jVCSuYuokRo2bTKOcuBiVWpjmTn6C5Agl5zclGfTljuGsQZxwwDBkli+YhZhP4TdlqTnhOezQ==
   dependencies:
     extend "^3.0.2"
     https-proxy-agent "^7.0.1"
