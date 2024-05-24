@@ -15,9 +15,9 @@
     "firebase-functions": "5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.24.5",
-    "@babel/eslint-parser": "7.24.5",
-    "@babel/preset-react": "7.24.1",
+    "@babel/core": "7.24.6",
+    "@babel/eslint-parser": "7.24.6",
+    "@babel/preset-react": "7.24.6",
     "eslint": "8.57.0",
     "eslint-plugin-promise": "6.1.1",
     "firebase-tools": "13.10.0"
