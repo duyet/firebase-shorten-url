@@ -45,7 +45,7 @@
     "eslint-plugin-jsx-a11y": "6.9.0",
     "eslint-plugin-react": "7.34.3",
     "eslint-plugin-react-hooks": "4.6.2",
-    "firebase-tools": "13.13.0",
+    "firebase-tools": "13.13.1",
     "prettier": "3.3.2"
   },
   "keywords": [
