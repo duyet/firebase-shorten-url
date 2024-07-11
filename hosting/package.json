@@ -35,7 +35,7 @@
     "react-helmet": "6.1.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.24.7",
+    "@babel/eslint-parser": "7.24.8",
     "@babel/preset-react": "7.24.7",
     "eslint": "8.57.0",
     "eslint-config-airbnb": "19.0.4",
