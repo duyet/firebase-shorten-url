@@ -43,7 +43,7 @@
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jest": "28.6.0",
     "eslint-plugin-jsx-a11y": "6.9.0",
-    "eslint-plugin-react": "7.34.3",
+    "eslint-plugin-react": "7.34.4",
     "eslint-plugin-react-hooks": "4.6.2",
     "firebase-tools": "13.13.2",
     "prettier": "3.3.3"
