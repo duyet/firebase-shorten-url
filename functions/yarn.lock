@@ -398,12 +398,12 @@
   resolved "https://registry.npmjs.org/@gar/promisify/-/promisify-1.1.3.tgz"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@google-cloud/cloud-sql-connector@^1.2.3":
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/@google-cloud/cloud-sql-connector/-/cloud-sql-connector-1.3.0.tgz"
-  integrity sha512-PPJgqTliwkpdC3iMWgG/rjh17VGL/UEYLyvcMtfWCUtFQ+DQFr7UV8gxrDKM7H0d0yEjai32uBkd4fMuijPKjQ==
+"@google-cloud/cloud-sql-connector@^1.3.3":
+  version "1.3.3"
+  resolved "https://registry.npmjs.org/@google-cloud/cloud-sql-connector/-/cloud-sql-connector-1.3.3.tgz"
+  integrity sha512-Z/6haHca3bnaf1I2t/lmRgU5pCzGQTK6u9hMnD6a6sCL46QB4JRiBvRI5QMSPjnG8VYr1R7Wp1ZawvQJodEY6g==
   dependencies:
-    "@googleapis/sqladmin" "^16.0.0"
+    "@googleapis/sqladmin" "^19.0.0"
     gaxios "^6.1.1"
     google-auth-library "^9.2.0"
     p-throttle "^5.1.0"
@@ -441,21 +441,21 @@
   resolved "https://registry.npmjs.org/@google-cloud/promisify/-/promisify-4.0.0.tgz"
   integrity sha512-Orxzlfb9c67A15cq2JQEyVc7wEsmFBmHjZWZYQMUyJ1qivXyMwdyNOs9odi79hze+2zqdTtu1E19IM/FtqZ10g==
 
-"@google-cloud/pubsub@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.npmjs.org/@google-cloud/pubsub/-/pubsub-4.4.0.tgz"
-  integrity sha512-1eiiAZUFhxcOqKPVwZarc3ghXuhoc3S7z5BgNrxqdirJ/MYr3IjQVTA7Lq2dAAsDuWms1LBN897rbnEGW9PpfA==
+"@google-cloud/pubsub@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.npmjs.org/@google-cloud/pubsub/-/pubsub-4.5.0.tgz"
+  integrity sha512-ptRLLDrAp1rStD1n3ZrG8FdAfpccqI6M5rCaceF6PL7DU3hqJbvQ2Y91G8MKG7c7zK+jiWv655Qf5r2IvjTzwA==
   dependencies:
     "@google-cloud/paginator" "^5.0.0"
     "@google-cloud/precise-date" "^4.0.0"
     "@google-cloud/projectify" "^4.0.0"
     "@google-cloud/promisify" "^4.0.0"
-    "@opentelemetry/api" "^1.6.0"
+    "@opentelemetry/api" "~1.8.0"
     "@opentelemetry/semantic-conventions" "~1.21.0"
     arrify "^2.0.0"
     extend "^3.0.2"
     google-auth-library "^9.3.0"
-    google-gax "^4.3.1"
+    google-gax "^4.3.3"
     heap-js "^2.2.0"
     is-stream-ended "^0.1.4"
     lodash.snakecase "^4.1.1"
@@ -484,10 +484,10 @@
     teeny-request "^9.0.0"
     uuid "^8.0.0"
 
-"@googleapis/sqladmin@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.npmjs.org/@googleapis/sqladmin/-/sqladmin-16.0.0.tgz"
-  integrity sha512-1L2BcGrkJmGUtpiliVk6rPttx3mbaqKTVXtunxX7HIfPbueBcI/6N/9G0fSoeKlCG+Vf09kusQUnTi7fiAeQ3A==
+"@googleapis/sqladmin@^19.0.0":
+  version "19.0.0"
+  resolved "https://registry.npmjs.org/@googleapis/sqladmin/-/sqladmin-19.0.0.tgz"
+  integrity sha512-65zgEpQLhpTZqUic+pm4BbdDByN9NsHkphfCIwzpx3fccHPc6OuKsW0XexYCq9oTUtTC4QRjFisBDLV9fChRtg==
   dependencies:
     googleapis-common "^7.0.0"
 
@@ -634,7 +634,7 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@opentelemetry/api@^1.6.0":
+"@opentelemetry/api@~1.8.0":
   version "1.8.0"
   resolved "https://registry.npmjs.org/@opentelemetry/api/-/api-1.8.0.tgz"
   integrity sha512-I/s6F7yKUDdtMsoBWXJe8Qz40Tui5vsuKCWJEWVL+5q9sSWRzzx6v2KeNsOBEwd94j0eWkpWCH4yB6rZg9Mf0w==
@@ -1007,9 +1007,9 @@ ansicolors@~0.3.2:
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
 anymatch@~3.1.2:
-  version "3.1.2"
-  resolved "https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz"
-  integrity sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==
+  version "3.1.3"
+  resolved "https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz"
+  integrity sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
@@ -1085,10 +1085,10 @@ ast-types@^0.13.4:
   dependencies:
     tslib "^2.0.1"
 
-async-lock@1.3.2:
-  version "1.3.2"
-  resolved "https://registry.npmjs.org/async-lock/-/async-lock-1.3.2.tgz"
-  integrity sha512-phnXdS3RP7PPcmP6NWWzWMU0sLTeyvtZCxBPpZdkYE3seGLKSQZs9FrmVO/qwypq98FUtWWUEYxziLkdGk5nnA==
+async-lock@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.npmjs.org/async-lock/-/async-lock-1.4.1.tgz"
+  integrity sha512-Az2ZTpuytrtqENulXwO3GGv1Bztugx6TT37NIo7imr/Qo0gsYiGtSdBa2B6fsXhTpVZDNfu1Qn3pk531e3q+nQ==
 
 async-retry@^1.3.3:
   version "1.3.3"
@@ -1166,9 +1166,9 @@ bignumber.js@^9.0.0:
   integrity sha512-2/mKyZH9K85bzOEfhXDBFZTGd1CTs+5IHpeFQo9luiBG7hghdC851Pj2WAhb6E3R6b9tZj/XKhbg4fum+Kepug==
 
 binary-extensions@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.0.0.tgz"
-  integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
+  version "2.3.0"
+  resolved "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz"
+  integrity sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==
 
 bl@^4.1.0:
   version "4.1.0"
@@ -1227,11 +1227,11 @@ brace-expansion@^2.0.1:
     balanced-match "^1.0.0"
 
 braces@~3.0.2:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/braces/-/braces-3.0.2.tgz"
-  integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/braces/-/braces-3.0.3.tgz"
+  integrity sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==
   dependencies:
-    fill-range "^7.0.1"
+    fill-range "^7.1.1"
 
 browserslist@^4.23.1:
   version "4.23.2"
@@ -1366,10 +1366,10 @@ chardet@^0.7.0:
   resolved "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-chokidar@^3.0.2:
-  version "3.5.3"
-  resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz"
-  integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
+chokidar@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz"
+  integrity sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==
   dependencies:
     anymatch "~3.1.2"
     braces "~3.0.2"
@@ -2115,10 +2115,10 @@ exegesis-express@^4.0.0:
   dependencies:
     exegesis "^4.1.0"
 
-exegesis@^4.1.0, exegesis@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.npmjs.org/exegesis/-/exegesis-4.1.2.tgz"
-  integrity sha512-D9ZFTFQ8O5ZRBLZ0HAHqo0Gc3+ts330WimHf0cF7OQZLQ3YqRVfjig5qGvEjheS68m+fMjJSR/wN/Qousg17Dw==
+exegesis@^4.1.0, exegesis@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npmjs.org/exegesis/-/exegesis-4.2.0.tgz"
+  integrity sha512-MOzRyqhvl+hTA4+W4p0saWRIPlu0grIx4ykjMEYgGLiqr/z9NCIlwSq2jF0gyxNjPZD3xyHgmkW6BSaLVUdctg==
   dependencies:
     "@apidevtools/json-schema-ref-parser" "^9.0.3"
     ajv "^8.3.0"
@@ -2271,10 +2271,10 @@ filesize@^6.1.0:
   resolved "https://registry.npmjs.org/filesize/-/filesize-6.1.0.tgz"
   integrity sha512-LpCHtPQ3sFx67z+uh2HnSyWSLLu5Jxo21795uRDuar/EOuYWXib5EmPaGIBuSnRqH2IODiKA2k5re/K9OnN/Yg==
 
-fill-range@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz"
-  integrity sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==
+fill-range@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz"
+  integrity sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==
   dependencies:
     to-regex-range "^5.0.1"
 
@@ -2342,19 +2342,19 @@ firebase-functions@5.0.1:
     express "^4.17.1"
     protobufjs "^7.2.2"
 
-firebase-tools@13.13.3:
-  version "13.13.3"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.13.3.tgz"
-  integrity sha512-xTlaEhIGkfsMPsJkvjir/AeOQryuRTcoXSlqJO2CZR+IzZCoYPMHO8zMKwEIc1ZEb6nYdRl14gjM8DpGCRpm2A==
+firebase-tools@13.14.0:
+  version "13.14.0"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.14.0.tgz"
+  integrity sha512-W1682Rl9WpEI20ustis7mO/jxW3uhQD6LcoXcdp5v8u8l490s3XRI7mGx3PJUgJi1RrnBwTyM8Hm5Q1xXvS/Og==
   dependencies:
-    "@google-cloud/cloud-sql-connector" "^1.2.3"
-    "@google-cloud/pubsub" "^4.4.0"
+    "@google-cloud/cloud-sql-connector" "^1.3.3"
+    "@google-cloud/pubsub" "^4.5.0"
     abort-controller "^3.0.0"
     ajv "^6.12.6"
     archiver "^7.0.0"
-    async-lock "1.3.2"
+    async-lock "1.4.1"
     body-parser "^1.19.0"
-    chokidar "^3.0.2"
+    chokidar "^3.6.0"
     cjson "^0.3.1"
     cli-table "0.3.11"
     colorette "^2.0.19"
@@ -2365,16 +2365,16 @@ firebase-tools@13.13.3:
     cross-spawn "^7.0.3"
     csv-parse "^5.0.4"
     deep-equal-in-any-order "^2.0.6"
-    exegesis "^4.1.2"
+    exegesis "^4.2.0"
     exegesis-express "^4.0.0"
     express "^4.16.4"
     filesize "^6.1.0"
     form-data "^4.0.0"
     fs-extra "^10.1.0"
     fuzzy "^0.1.3"
-    gaxios "^6.1.1"
+    gaxios "^6.7.0"
     glob "^10.4.1"
-    google-auth-library "^9.7.0"
+    google-auth-library "^9.11.0"
     inquirer "^8.2.6"
     inquirer-autocomplete-prompt "^2.0.1"
     jsonwebtoken "^9.0.0"
@@ -2499,9 +2499,9 @@ fs.realpath@^1.0.0:
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
 fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+  version "2.3.3"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -2532,16 +2532,16 @@ gauge@^4.0.3:
     strip-ansi "^6.0.1"
     wide-align "^1.1.5"
 
-gaxios@^6.0.0, gaxios@^6.0.2, gaxios@^6.0.3, gaxios@^6.1.1:
-  version "6.6.0"
-  resolved "https://registry.npmjs.org/gaxios/-/gaxios-6.6.0.tgz"
-  integrity sha512-bpOZVQV5gthH/jVCSuYuokRo2bTKOcuBiVWpjmTn6C5Agl5zclGfTljuGsQZxwwDBkli+YhZhP4TdlqTnhOezQ==
+gaxios@^6.0.0, gaxios@^6.0.2, gaxios@^6.0.3, gaxios@^6.1.1, gaxios@^6.7.0:
+  version "6.7.0"
+  resolved "https://registry.npmjs.org/gaxios/-/gaxios-6.7.0.tgz"
+  integrity sha512-DSrkyMTfAnAm4ks9Go20QGOcXEyW/NmZhvTYBU2rb4afBB393WIMQPWPEDMl/k8xqiNN9HYq2zao3oWXsdl2Tg==
   dependencies:
     extend "^3.0.2"
     https-proxy-agent "^7.0.1"
     is-stream "^2.0.0"
     node-fetch "^2.6.9"
-    uuid "^9.0.1"
+    uuid "^10.0.0"
 
 gcp-metadata@^6.1.0:
   version "6.1.0"
@@ -2679,10 +2679,10 @@ globals@^13.19.0:
   dependencies:
     type-fest "^0.20.2"
 
-google-auth-library@^9.0.0, google-auth-library@^9.2.0, google-auth-library@^9.3.0, google-auth-library@^9.7.0:
-  version "9.10.0"
-  resolved "https://registry.npmjs.org/google-auth-library/-/google-auth-library-9.10.0.tgz"
-  integrity sha512-ol+oSa5NbcGdDqA+gZ3G3mev59OHBZksBTxY/tYwjtcp1H/scAFwJfSQU9/1RALoyZ7FslNbke8j4i3ipwlyuQ==
+google-auth-library@^9.0.0, google-auth-library@^9.11.0, google-auth-library@^9.2.0, google-auth-library@^9.3.0, google-auth-library@^9.7.0:
+  version "9.11.0"
+  resolved "https://registry.npmjs.org/google-auth-library/-/google-auth-library-9.11.0.tgz"
+  integrity sha512-epX3ww/mNnhl6tL45EQ/oixsY8JLEgUFoT4A5E/5iAR4esld9Kqv6IJGk7EmGuOgDvaarwF95hU2+v7Irql9lw==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
@@ -2691,7 +2691,7 @@ google-auth-library@^9.0.0, google-auth-library@^9.2.0, google-auth-library@^9.3
     gtoken "^7.0.0"
     jws "^4.0.0"
 
-google-gax@^4.3.1, google-gax@^4.3.3:
+google-gax@^4.3.3:
   version "4.3.3"
   resolved "https://registry.npmjs.org/google-gax/-/google-gax-4.3.3.tgz"
   integrity sha512-f4F2Y9X4+mqsrJuLZsuTljYuQpcBnQsCt9ScvZpdM8jGjqrcxyJi5JUiqtq0jtpdHVPzyit0N7f5t07e+kH5EA==
