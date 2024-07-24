@@ -6480,10 +6480,10 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firebase-tools@13.14.0:
-  version "13.14.0"
-  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.14.0.tgz"
-  integrity sha512-W1682Rl9WpEI20ustis7mO/jxW3uhQD6LcoXcdp5v8u8l490s3XRI7mGx3PJUgJi1RrnBwTyM8Hm5Q1xXvS/Og==
+firebase-tools@13.14.1:
+  version "13.14.1"
+  resolved "https://registry.npmjs.org/firebase-tools/-/firebase-tools-13.14.1.tgz"
+  integrity sha512-/agXsDzlozIkxEUzc4iVJalfjyJ7DVXyvLpCkFQ1retM6tbt22ek4yKRndozxykb/u+7ndNTo6Uy2boIKcqHag==
   dependencies:
     "@google-cloud/cloud-sql-connector" "^1.3.3"
     "@google-cloud/pubsub" "^4.5.0"
