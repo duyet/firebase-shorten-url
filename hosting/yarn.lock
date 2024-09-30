@@ -3324,10 +3324,10 @@ ansi-styles@^6.1.0:
   resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.1.tgz"
   integrity sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==
 
-antd@5.21.1:
-  version "5.21.1"
-  resolved "https://registry.npmjs.org/antd/-/antd-5.21.1.tgz"
-  integrity sha512-JBNv11RmZj5npBp77eyHPVp+ona1YcqCNxJF4kJ1CTXvCittqyMyXL+PLN3dXRIIDFQ8NYlf+v/Yn2pHZXXknA==
+antd@5.21.2:
+  version "5.21.2"
+  resolved "https://registry.npmjs.org/antd/-/antd-5.21.2.tgz"
+  integrity sha512-ZcyykH58xRkNp5oxFqn255VxrjLj6qG6czHJQPoDHqRdR9roSfWQGTiqYVb4Omg77WZHNgu17QrWzvL4Hp6/FA==
   dependencies:
     "@ant-design/colors" "^7.1.0"
     "@ant-design/cssinjs" "^1.21.1"
@@ -3357,7 +3357,7 @@ antd@5.21.1:
     rc-mentions "~2.16.1"
     rc-menu "~9.15.1"
     rc-motion "^2.9.3"
-    rc-notification "~5.6.1"
+    rc-notification "~5.6.2"
     rc-pagination "~4.3.0"
     rc-picker "~4.6.15"
     rc-progress "~4.0.0"
@@ -3369,7 +3369,7 @@ antd@5.21.1:
     rc-steps "~6.0.1"
     rc-switch "~4.1.0"
     rc-table "~7.47.5"
-    rc-tabs "~15.2.0"
+    rc-tabs "~15.3.0"
     rc-textarea "~1.8.2"
     rc-tooltip "~6.2.1"
     rc-tree "~5.9.0"
@@ -11342,10 +11342,10 @@ rc-motion@^2.0.0, rc-motion@^2.0.1, rc-motion@^2.3.0, rc-motion@^2.3.4, rc-motio
     classnames "^2.2.1"
     rc-util "^5.43.0"
 
-rc-notification@~5.6.1:
-  version "5.6.1"
-  resolved "https://registry.npmjs.org/rc-notification/-/rc-notification-5.6.1.tgz"
-  integrity sha512-Q4ZKES3IBxWmpNnlDiMFYoH6D7MJ1L3n3gp59pnpaMI8gm9Vj+gVRxdInvoYjBoZvEOenxb9MbbKvnFhzJpgvA==
+rc-notification@~5.6.2:
+  version "5.6.2"
+  resolved "https://registry.npmjs.org/rc-notification/-/rc-notification-5.6.2.tgz"
+  integrity sha512-Id4IYMoii3zzrG0lB0gD6dPgJx4Iu95Xu0BQrhHIbp7ZnAZbLqdqQ73aIWH0d0UFcElxwaKjnzNovTjo7kXz7g==
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "2.x"
@@ -11473,10 +11473,10 @@ rc-table@~7.47.5:
     rc-util "^5.41.0"
     rc-virtual-list "^3.14.2"
 
-rc-tabs@~15.2.0:
-  version "15.2.0"
-  resolved "https://registry.npmjs.org/rc-tabs/-/rc-tabs-15.2.0.tgz"
-  integrity sha512-ZfHdGw0krK4walBYNOgPWCcBImSp5NtzJR5+oI4rN9Z44FYDQKozBFfuAQHhumIUtx4EmGaYCFjywwgca/Rs1g==
+rc-tabs@~15.3.0:
+  version "15.3.0"
+  resolved "https://registry.npmjs.org/rc-tabs/-/rc-tabs-15.3.0.tgz"
+  integrity sha512-lzE18r+zppT/jZWOAWS6ntdkDUKHOLJzqMi5UAij1LeKwOaQaupupAoI9Srn73GRzVpmGznkECMRrzkRusC40A==
   dependencies:
     "@babel/runtime" "^7.11.2"
     classnames "2.x"
