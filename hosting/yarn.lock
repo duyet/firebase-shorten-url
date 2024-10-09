@@ -3323,10 +3323,10 @@ ansi-styles@^6.1.0:
   resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.1.tgz"
   integrity sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==
 
-antd@5.21.2:
-  version "5.21.2"
-  resolved "https://registry.npmjs.org/antd/-/antd-5.21.2.tgz"
-  integrity sha512-ZcyykH58xRkNp5oxFqn255VxrjLj6qG6czHJQPoDHqRdR9roSfWQGTiqYVb4Omg77WZHNgu17QrWzvL4Hp6/FA==
+antd@5.21.3:
+  version "5.21.3"
+  resolved "https://registry.npmjs.org/antd/-/antd-5.21.3.tgz"
+  integrity sha512-Yby3gU6jfuvhNFRPsrHB4Yc/G3LHLNHHy0kShwNmmZf1QTCiW5TmqP3DT5m/NHbJsTgEwJpwo3AaOWo+KQyEjw==
   dependencies:
     "@ant-design/colors" "^7.1.0"
     "@ant-design/cssinjs" "^1.21.1"
@@ -3364,7 +3364,7 @@ antd@5.21.2:
     rc-resize-observer "^1.4.0"
     rc-segmented "~2.5.0"
     rc-select "~14.15.2"
-    rc-slider "~11.1.6"
+    rc-slider "~11.1.7"
     rc-steps "~6.0.1"
     rc-switch "~4.1.0"
     rc-table "~7.47.5"
@@ -11434,10 +11434,10 @@ rc-select@~14.15.0, rc-select@~14.15.2:
     rc-util "^5.16.1"
     rc-virtual-list "^3.5.2"
 
-rc-slider@~11.1.6:
-  version "11.1.6"
-  resolved "https://registry.npmjs.org/rc-slider/-/rc-slider-11.1.6.tgz"
-  integrity sha512-LACAaXM0hi+4x4ErDGZLy7weIQwmBIVbIgPE+eDHiHkyzMvKjWHraCG8/B22Y/tCQUPAsP02wBhKhth7mH2PIw==
+rc-slider@~11.1.7:
+  version "11.1.7"
+  resolved "https://registry.npmjs.org/rc-slider/-/rc-slider-11.1.7.tgz"
+  integrity sha512-ytYbZei81TX7otdC0QvoYD72XSlxvTihNth5OeZ6PMXyEDq/vHdWFulQmfDGyXK1NwKwSlKgpvINOa88uT5g2A==
   dependencies:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.5"
