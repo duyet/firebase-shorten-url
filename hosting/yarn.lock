@@ -40,10 +40,10 @@
   resolved "https://registry.npmjs.org/@ant-design/css-animation/-/css-animation-1.7.3.tgz"
   integrity sha512-LrX0OGZtW+W6iLnTAqnTaoIsRelYeuLZWsrmBJFUXDALQphPsN8cE5DCsmoSlL0QYb94BQxINiuS70Ar/8BNgA==
 
-"@ant-design/cssinjs-utils@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/@ant-design/cssinjs-utils/-/cssinjs-utils-1.1.0.tgz"
-  integrity sha512-E9nOWObXx7Dy7hdyuYlOFaer/LtPO7oyZVxZphh0CYEslr5EmhJPM3WI0Q2RBHRtYg6dSNqeSK73kvZjPN3IMQ==
+"@ant-design/cssinjs-utils@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@ant-design/cssinjs-utils/-/cssinjs-utils-1.1.1.tgz#57abb43671023f937348bd33442862c60ac8e8b2"
+  integrity sha512-2HAiyGGGnM0es40SxdszeQAU5iWp41wBIInq+ONTCKjlSKOrzQfnw4JDtB8IBmqE6tQaEKwmzTP2LGdt5DSwYQ==
   dependencies:
     "@ant-design/cssinjs" "^1.21.0"
     "@babel/runtime" "^7.23.2"
@@ -3323,14 +3323,14 @@ ansi-styles@^6.1.0:
   resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.1.tgz"
   integrity sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==
 
-antd@5.21.3:
-  version "5.21.3"
-  resolved "https://registry.npmjs.org/antd/-/antd-5.21.3.tgz"
-  integrity sha512-Yby3gU6jfuvhNFRPsrHB4Yc/G3LHLNHHy0kShwNmmZf1QTCiW5TmqP3DT5m/NHbJsTgEwJpwo3AaOWo+KQyEjw==
+antd@5.21.5:
+  version "5.21.5"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-5.21.5.tgz#c82f14b36f6821490ccd30d8befaa65a11b5e782"
+  integrity sha512-g/c8VkdruKDCVA6di9Ow1fG6dLtYJ1IOraPo7vXaY7DoQ56A3HExaFaH0fBEwTYKC0ICeftC4iA5eAjrF6/b9w==
   dependencies:
     "@ant-design/colors" "^7.1.0"
     "@ant-design/cssinjs" "^1.21.1"
-    "@ant-design/cssinjs-utils" "^1.1.0"
+    "@ant-design/cssinjs-utils" "^1.1.1"
     "@ant-design/icons" "^5.5.1"
     "@ant-design/react-slick" "~1.1.2"
     "@babel/runtime" "^7.25.6"
@@ -3343,7 +3343,7 @@ antd@5.21.3:
     classnames "^2.5.1"
     copy-to-clipboard "^3.3.3"
     dayjs "^1.11.11"
-    rc-cascader "~3.28.1"
+    rc-cascader "~3.28.2"
     rc-checkbox "~3.3.0"
     rc-collapse "~3.8.0"
     rc-dialog "~9.6.0"
@@ -11194,10 +11194,10 @@ rc-animate@^3.1.1:
     raf "^3.4.0"
     rc-util "^4.15.3"
 
-rc-cascader@~3.28.1:
-  version "3.28.1"
-  resolved "https://registry.npmjs.org/rc-cascader/-/rc-cascader-3.28.1.tgz"
-  integrity sha512-9+8oHIMWVLHxuaapDiqFNmD9KSyKN/P4bo9x/MBuDbyTqP8f2/POmmZxdXWBO3yq/uE3pKyQCXYNUxrNfHRv2A==
+rc-cascader@~3.28.2:
+  version "3.28.2"
+  resolved "https://registry.yarnpkg.com/rc-cascader/-/rc-cascader-3.28.2.tgz#91720d3498261a7bff9fffc953501a8830f601fb"
+  integrity sha512-8f+JgM83iLTvjgdkgU7GfI4qY8icXOBP0cGZjOdx2iJAkEe8ucobxDQAVE69UD/c3ehCxZlcgEHeD5hFmypbUw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     array-tree-filter "^2.1.0"
