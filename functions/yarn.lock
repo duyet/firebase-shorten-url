@@ -2333,10 +2333,10 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firebase-admin@13.0.0:
-  version "13.0.0"
-  resolved "https://registry.npmjs.org/firebase-admin/-/firebase-admin-13.0.0.tgz"
-  integrity sha512-tgm4+NT051tv237g4rLz6L5TJ4l1QwPjzysBJKnukP8fvdJQuXUNpqQONptNbNeLEUkRAroGNuEg5v3aVPzkbw==
+firebase-admin@13.0.1:
+  version "13.0.1"
+  resolved "https://registry.npmjs.org/firebase-admin/-/firebase-admin-13.0.1.tgz"
+  integrity sha512-sKQ/Yw8o/WdC9qTKvuLMBjTbdcBISIXW4+M9PXk0bNjxEbZf1Er7EVq47eRb5+bnKof10xlns6zAIbj4tmSexg==
   dependencies:
     "@fastify/busboy" "^3.0.0"
     "@firebase/database-compat" "^2.0.0"
