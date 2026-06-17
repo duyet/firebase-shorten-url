@@ -2285,10 +2285,10 @@ firebase-admin@13.10.0:
     "@google-cloud/firestore" "^7.11.0"
     "@google-cloud/storage" "^7.19.0"
 
-firebase-functions@6.1.1:
-  version "6.1.1"
-  resolved "https://registry.npmjs.org/firebase-functions/-/firebase-functions-6.1.1.tgz"
-  integrity sha512-q+4zsQhX04YJUz6hqaiH/j5kixljPj0PMxkm8KN3juYp3I4NC6CZ4qfy5JRfwvV8VfXM2KkJrZuyJtLyZr97aw==
+firebase-functions@6.6.0:
+  version "6.6.0"
+  resolved "https://registry.npmjs.org/firebase-functions/-/firebase-functions-6.6.0.tgz"
+  integrity sha512-wwfo6JF+N7HUExVs5gUFgkgVGHDEog9O+qtouh7IuJWk8TBQ+KwXEgRiXbatSj7EbTu3/yYnHuzh3XExbfF6wQ==
   dependencies:
     "@types/cors" "^2.8.5"
     "@types/express" "^4.17.21"
