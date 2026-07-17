@@ -2158,11 +2158,6 @@ external-editor@^3.0.3:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
-farmhash-modern@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/farmhash-modern/-/farmhash-modern-1.1.0.tgz"
-  integrity sha512-6ypT4XfgqJk/F3Yuv4SX26I3doUjt0GTG4a+JgWxXQpxXzTBq8fPUeGHfcYMMDPHJHm3yPOSjaeBwBGAHWXCdA==
-
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
@@ -2305,15 +2300,14 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firebase-admin@14.0.0:
-  version "14.0.0"
-  resolved "https://registry.npmjs.org/firebase-admin/-/firebase-admin-14.0.0.tgz"
-  integrity sha512-U88/r6VWiBQ05+UlLaF1A1AN4Y3SAGQKcQWawzafEAnXVaCZ21+2KclMPdlIQAAF5pUtN+FkXCSQnJEpc6QDZA==
+firebase-admin@14.2.0:
+  version "14.2.0"
+  resolved "https://registry.npmjs.org/firebase-admin/-/firebase-admin-14.2.0.tgz"
+  integrity sha512-zfs5PdccEgjX479bbMmz95Rqc7ttQ4LV3qkGFlPiqOaOu/suBZc3fG52Qzn2hQjiSHkBM4NP2AZV5r2NvAt0TQ==
   dependencies:
     "@fastify/busboy" "^3.0.0"
     "@firebase/database-compat" "^2.1.4"
     "@firebase/database-types" "^1.0.20"
-    farmhash-modern "^1.1.0"
     fast-deep-equal "^3.1.1"
     google-auth-library "^10.6.2"
     jsonwebtoken "^9.0.0"
