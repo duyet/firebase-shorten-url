@@ -441,16 +441,16 @@
 
 "@grpc/grpc-js@^1.12.6":
   version "1.14.4"
-  resolved "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.14.4.tgz"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.14.4.tgz#e73ff57d97802f063999545f43ebb2b1eca65d9d"
   integrity sha512-k9Dj3DV/itK9D06Y8f190Qgop7/Ui+D0njFV3LHMPwPT75DpXLQohE9Wmz0QElrJnzsjB7KPWiKJbOl7IPDArQ==
   dependencies:
     "@grpc/proto-loader" "^0.8.0"
     "@js-sdsl/ordered-map" "^4.4.2"
 
 "@grpc/grpc-js@~1.10.3":
-  version "1.10.8"
-  resolved "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.10.8.tgz"
-  integrity sha512-vYVqYzHicDqyKB+NQhAc54I1QWCBLCrYG6unqOIcBTHx+7x8C9lcoLj3KVJXs2VB4lUbpWY+Kk9NipcbXYWmvg==
+  version "1.10.12"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-1.10.12.tgz#592d9025b2b9223f225bb2676b4772cb5ce6618b"
+  integrity sha512-Cn1e1MDS2kF6QsLHGIBGjWWOXtTpnGmnJ31nO9Jzn/plm8tbD/NSovX3BEi921M4CAPLjrQmP0OLEv2Qg51CPg==
   dependencies:
     "@grpc/proto-loader" "^0.7.13"
     "@js-sdsl/ordered-map" "^4.4.2"
